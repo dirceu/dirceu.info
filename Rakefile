@@ -2,6 +2,6 @@ task :default => "site:generate"
 
 namespace :site do
   task :generate do
-    `jekyll --permalink "/:title"`
+    `/var/lib/gems/1.8/bin/jekyll --permalink "/:title"`
   end
 end

@@ -34,7 +34,7 @@ end
 namespace :jekyll do
   desc "Generates the site on the remote server"
   task :generate_site do
-    run "cd #{current_release} && rake site:generate"
+    run "cd #{current_release} && /var/lib/gems/1.8/bin/rake site:generate"
   end
 end
  
