@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+  <url>
+    <loc>http://dirceu.info/blog{{ post.url }}.html</loc>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>http://dirceu.info</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://dirceu.info/contact.html</loc>
+    <lastmod>2009-07-26</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>http://dirceu.info/archive/index.html</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
