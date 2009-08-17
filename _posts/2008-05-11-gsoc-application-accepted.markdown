@@ -8,3 +8,4 @@ As most of you already know, my <a href="http://code.google.com/soc/2008/zope/ap
 I'm using the time left until the coding starts to learn how to use ZEORaid and how it's code works. I'm very happy and excited with this project, and I'm already learning a lot with it.
 
 Many thanks to everyone who helped me, and good luck for all fellow GSoC students!
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-application-accepted';</script>

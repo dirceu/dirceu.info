@@ -25,4 +25,4 @@ $ cd .. ; rm -rf erlyweb</pre><br />
 <pre>$ mkdir -p ~/apps/myapp
 $ create_erlyweb_app.sh myapp ~/apps
 $ cd ~/apps/myapp
-$ yaws --conf yaws.conf</pre>
+$ yaws --conf yaws.conf</pre><script type='text/javascript'>disqus_url='http://dirceu.info/blog/installing-erlang-yaws-and-erlyweb-on-mac-os-x';</script>

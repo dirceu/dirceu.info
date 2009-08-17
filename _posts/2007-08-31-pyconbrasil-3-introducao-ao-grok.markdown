@@ -19,3 +19,4 @@ title: PyConBrasil 3 - Introdu&ccedil;&atilde;o ao Grok
     </div>
 </div>
 Palestra apresentada por mim na III PyConBrasil, em Joinville/SC, no dia 30/08/2007.
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/pyconbrasil-3-introducao-ao-grok';</script>

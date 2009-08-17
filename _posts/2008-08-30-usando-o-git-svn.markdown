@@ -11,4 +11,4 @@ Segue abaixo meu fluxo de trabalho no git-svn:
 
 <a title="Gist 8107 - git-svn" href="http://gist.github.com/8107">Link do Gist</a>, para quem n&atilde;o consegue ver no feed.
 
-Enfim, esse &eacute; um post pra que eu mesmo n&atilde;o esque&ccedil;a como fazer isso. Alguns links e tutoriais interessantes sobre o git e o git-svn est&atilde;o no meu <a title="delicious.com/dirceu" href="http://delicious.com/dirceu/">del.icio.us</a>: <a title="delicious.com/dirceu/git" href="http://delicious.com/dirceu/git">http://delicious.com/dirceu/git</a>.
+Enfim, esse &eacute; um post pra que eu mesmo n&atilde;o esque&ccedil;a como fazer isso. Alguns links e tutoriais interessantes sobre o git e o git-svn est&atilde;o no meu <a title="delicious.com/dirceu" href="http://delicious.com/dirceu/">del.icio.us</a>: <a title="delicious.com/dirceu/git" href="http://delicious.com/dirceu/git">http://delicious.com/dirceu/git</a>.<script type='text/javascript'>disqus_url='http://dirceu.info/blog/usando-o-git-svn';</script>

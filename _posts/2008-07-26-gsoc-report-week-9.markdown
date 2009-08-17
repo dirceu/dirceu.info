@@ -15,3 +15,4 @@ Now I need to work on the following things:
 	<li>Add a command to remove an existing storage using the client tool;</li>
 	<li>Add a command ('reload') to reload the zeo.conf and add/remove the storages as needed.</li>
 </ul>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-9';</script>

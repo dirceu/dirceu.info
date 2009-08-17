@@ -23,4 +23,4 @@ One good surprise is XCode / iPhone Simulator. XCode is a very good IDE and it's
 
 If you need to buy some tool (be it hardware or software), buy the best tool your money can buy. Some programmers hesitate to spend some money on a good chair, on a good editor or on a good computer (like me, before all this) but damn, we spend 8-12 hours a day using these things! Every single thing that can save you time or give you more comfort is worth it.
 
-I have a profile on <a title="i use this os software: dirceu" href="http://osx.iusethis.com/user/dirceu">iUseThis</a> that shows the apps that I have on my Mac. If you have any recomendations please leave a comment!
+I have a profile on <a title="i use this os software: dirceu" href="http://osx.iusethis.com/user/dirceu">iUseThis</a> that shows the apps that I have on my Mac. If you have any recomendations please leave a comment!<script type='text/javascript'>disqus_url='http://dirceu.info/blog/im-a-mac-again';</script>

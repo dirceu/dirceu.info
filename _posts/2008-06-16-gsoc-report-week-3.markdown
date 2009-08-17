@@ -10,3 +10,4 @@ My first task was to test if <span class="link-external"><a href="http://pypi.py
 After that I've been working on distributing single requests to backends over the available (optimal) backends. Right now ZEORaid (trunk) iterates over a list of optimal storages and gets the first reliable result; I wrote a simple <span class="link-external"><a href="http://svn.zope.org/gocept.zeoraid/branches/distributed-remote-calls/">patch</a></span> to distribute the requests randomly.
 
 My current task is to provide supplemental tests to verify that the new changes actually apply as predicted (e.g. that reading actually does trigger requests to different backends).
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-3';</script>

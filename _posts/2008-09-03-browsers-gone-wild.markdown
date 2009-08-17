@@ -24,4 +24,4 @@ Perdeu, preib&oacute;i. Por enquanto o Ubiquity s&oacute; roda em Windows e Mac 
 
 E vejam que beleza: migrei do OS X de volta pra Linux h&aacute; menos de uma semana. O jeito &eacute; usar o <a title="VirtualBox no Ubuntu 8.04" href="http://hamacker.wordpress.com/2008/04/30/virtualbox-no-ubuntu-804/">VirtualBox</a>.
 
-*sigh*
+*sigh*<script type='text/javascript'>disqus_url='http://dirceu.info/blog/browsers-gone-wild';</script>
