@@ -9,3 +9,4 @@ I'm using the time left until the coding starts to learn how to use ZEORaid and 
 
 Many thanks to everyone who helped me, and good luck for all fellow GSoC students!
 <script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-application-accepted';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-application-accepted/';</script>

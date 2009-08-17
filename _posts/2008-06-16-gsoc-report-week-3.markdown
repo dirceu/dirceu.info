@@ -11,3 +11,4 @@ After that I've been working on distributing single requests to backends over th
 
 My current task is to provide supplemental tests to verify that the new changes actually apply as predicted (e.g. that reading actually does trigger requests to different backends).
 <script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-3';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-3/';</script>

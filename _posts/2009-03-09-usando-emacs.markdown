@@ -18,3 +18,4 @@ O Emacs &eacute; muito flex&iacute;vel. Abrir diversos buffers lado a lado, faze
 No geral estou bastante satisfeito com a minha escolha de editor. Pretendo me aprofundar mais e assim melhorar minha produtividade - afinal de contas um dos requisitos para entrar no estado de "<a title="Flow: Get into the Zone at Work" href="http://www.thatvoodooyoudo.com/best-practice/flow/">flow</a>" &eacute; usar bem e intuitivamente as ferramentas que mais usamos.
 
 No meu <a title="dirceu's Bookmarks" href="http://delicious.com/dirceu/">delicious</a> tem alguns links interessantes sobre Emacs: <a title="dirceu's emacs Bookmarks" href="http://delicious.com/dirceu/emacs">http://delicious.com/dirceu/emacs</a>.<script type='text/javascript'>disqus_url='http://dirceu.info/blog/usando-emacs';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/usando-emacs/';</script>

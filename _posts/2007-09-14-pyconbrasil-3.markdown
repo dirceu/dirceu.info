@@ -24,3 +24,4 @@ Foram v&aacute;rias palestras muito interessantes de v&aacute;rios gurus da comu
 
 No fim das contas, n&atilde;o hesito em dizer que foi o melhor evento t&eacute;cnico do qual j&aacute; participei, tanto pelo n&iacute;vel das palestras e palestrantes quanto pelas pessoas que l&aacute; estavam. A comunidade Python &eacute; melhor :-).
 <script type='text/javascript'>disqus_url='http://dirceu.info/blog/pyconbrasil-3';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/pyconbrasil-3/';</script>

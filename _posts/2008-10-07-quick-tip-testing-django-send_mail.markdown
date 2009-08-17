@@ -9,3 +9,4 @@ django.core.mail.outbox is a list of all instances of emails sent with django.co
 
 <script src="http://gist.github.com/15413.js"></script>
 (<a title="gist 15413" href="http://gist.github.com/15413">Link of the Gist</a>)<script type='text/javascript'>disqus_url='http://dirceu.info/blog/quick-tip-testing-django-send_mail';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/quick-tip-testing-django-send_mail/';</script>

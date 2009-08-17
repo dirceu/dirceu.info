@@ -9,3 +9,4 @@ I worked on creating tests for my last week's patches. Unfortunately I took the 
 
 Next week I will work on finishing this task and hopefully starting my next task - parallelize requests to multiple backends, probably.
 <script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-4';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-4/';</script>

@@ -9,3 +9,4 @@ ZEORaid considers ZODB.POSException.POSError and transaction.interfaces.Transact
 
 Christian helped me to work on hadling this and now all tests are passing. I'm just refactoring the code now and will procceed to the next task: allow defining/removing new backend storages while running using the client tool or reloading the config.
 <script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-8';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-8/';</script>

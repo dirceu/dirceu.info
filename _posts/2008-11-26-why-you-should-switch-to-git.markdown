@@ -27,3 +27,4 @@ So this is why I'm using Git. The following links are tutorials and explanations
 	<li><a title="New to Git?" href="http://github.com/blog/120-new-to-git">New to Git?</a></li>
 	<li><a title="Git Internals PDF | PeepCode" href="http://peepcode.com/products/git-internals-pdf">Git Internals</a> (Highly Recommended!)</li>
 </ul><script type='text/javascript'>disqus_url='http://dirceu.info/blog/why-you-should-switch-to-git';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/why-you-should-switch-to-git/';</script>

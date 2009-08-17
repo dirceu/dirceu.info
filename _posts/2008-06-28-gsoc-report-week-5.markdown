@@ -36,3 +36,4 @@ The first three methods could be changed to start len(self.storages_optimal) thr
 
 This seems a bit more challenging than my last task (specially to test), which is great! I'm learning a lot about many things, and it's been very fun :-).
 <script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-5';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/gsoc-report-week-5/';</script>

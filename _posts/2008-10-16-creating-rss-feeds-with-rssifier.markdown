@@ -14,3 +14,4 @@ The lib code is ugly at some points, but it's working for me. Here is an example
 And <a title="malvados.xml" href="http://dirceu.info/malvados.xml">this</a> is the result; I have a cronjob calling the malvados.rb periodically, so this XML gets updated from time to time.
 
 Any contributions via <a title="dirceu's rssifier at master" href="http://github.com/dirceu/rssifier/tree/master">github</a> are obviously welcome :-).<script type='text/javascript'>disqus_url='http://dirceu.info/blog/creating-rss-feeds-with-rssifier';</script>
+<script type='text/javascript'>disqus_url='http://dirceu.info/blog/creating-rss-feeds-with-rssifier/';</script>
