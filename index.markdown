@@ -10,7 +10,7 @@ title: dirceu.info
     <span class="date">{{ post.date | date:"%B %d, %Y" }}</span>
     {{ post.content }}
     <div class="view_comments_link">
-      <a href="{{ post.url }}#disqus_thread">View Comments</a> <br />
+      <a href="/blog{{ post.url }}#disqus_thread">View Comments</a> <br />
     </div>
   </div>
   {% endfor %}
