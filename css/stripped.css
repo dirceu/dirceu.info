@@ -1,0 +1,582 @@
+/*
+DESIGN NAME: Stripped
+DESIGN URI: http://www.upstartblogger.com/wordpress-theme-stripped
+VERSION: 0.1
+DESCRIPTION: A minimalist wordpress theme
+DESIGNER: Ashley Morgan
+DESIGNER URI: http://www.upstartblogger.com/
+*/
+
+#theme-link:after {
+	content: " Do blogs have to look like blogs?";
+	color: #666;
+}
+
+/* @group Layout */
+
+html * {
+	margin-top: 0;
+	margin-bottom: 0px;
+	padding: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	color: #000000;
+	text-align: left;
+	font-family: Georgia;
+	font-size: 101%;
+	line-height: 150%;
+	background-attachment: fixed;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: normal;
+}
+
+#wrapper {
+	width: 762px;
+}
+
+#access {
+	margin-left: -9999px;
+}
+
+#menu {
+	display: none;
+}
+.big-title {
+	clear: both;
+	color: #CC0000;
+	font-size: 5.0em;
+	line-height: 1em;
+	font-weight: normal;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 40px;
+	padding-left: 0;
+	text-transform: capitalize;
+}
+
+.archive-title {
+	clear: both;
+	color: #CC0000;
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: normal;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 40px;
+	padding-left: 0;
+	text-transform: capitalize;
+}
+
+#blog-title {
+	font-size: 2em;
+	font-weight: normal;
+	text-transform: none;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 0;
+	line-height: 1.2em;
+}
+
+#blog-title a:link, #blog-title a:visited {
+	color: #CC0000;
+	text-decoration: none;
+}
+
+#blog-title a:hover {
+	color: #CC0000;
+	text-decoration: underline;
+}
+
+#blog-description {
+	color: #000000;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: left;
+	text-transform: uppercase;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+
+#content {
+	float: left;
+	padding-top: 50px;
+	padding-right: 0;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+#primary {
+	float: left;
+	text-transform: none;
+	margin-top: 50px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+	width: 100%;
+}
+
+#secondary {
+	float: left;
+	text-transform: none;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+	width: 100%;
+}
+
+#footer {
+	clear: both;
+	font-size: 0.9375em;
+	margin-left: 0px;
+	text-align: left;
+	text-transform: none;
+	font-weight: normal;
+	line-height: 1.5;
+	padding-top: 50px;
+	padding-right: 0;
+	padding-bottom: 25px;
+	padding-left: 0;
+}
+
+/* @end */
+
+/* @group Comments */
+
+#comments {
+	clear: both;
+	font-size: 0.9375em;
+	margin: 0;
+	width: 100%;
+	padding-top: 50px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+form#commentform .form-label {
+	margin: 1em 0 0;
+}
+
+form#commentform span.req-field {
+	background: #fff;
+	color: red;
+}
+
+form#commentform,form#commentform p {
+	padding: 0;
+}
+
+input#author,input#email,input#url {
+	width: 100%;
+}
+
+input#author,input#email,input#url,textarea#comment {
+	padding: 0.2em;
+}
+
+.comments ol li {
+	line-height: 160%;
+	list-style-position: inside;
+}
+
+textarea#comment {
+	height: 13em;
+	margin: 0 0 0.5em;
+	overflow: auto;
+	width: 100%;
+}
+
+li.comment {
+	padding: 20px 0 0;
+}
+
+li.comment.bypostauthor {
+	background: #cbc4ab;
+	padding: 20px;
+}
+
+#respond {
+	padding-top: 50px;
+}
+
+#comments ol {
+	margin: 0;
+}
+
+.comment-author {
+	font-size: 1.2em;
+}
+
+/* @end */
+
+/* @group Entries */
+
+.entry-title:before {
+	color: #d4d4d4;
+	content: "  ";
+}
+
+.entry-title {
+	clear: both;
+	color: #CC0000;
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: normal;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 40px;
+	padding-left: 0;
+	text-transform: capitalize;
+}
+
+.entry-content {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.entry-date {
+	font-size: 76%;
+	line-height: 1.4em;
+}
+
+.entry-meta {
+	color: #000000;
+	font-size: 0.9375em;
+	line-height: 1.4em;
+}
+
+.meta-sep {
+	color: #eaeaea;
+}
+
+.comments-link {
+	color: #5e5e5e;
+}
+
+abbr.published {
+	border: none;
+	cursor: default;
+}
+
+/* @end */
+
+
+
+/* @group Home */
+
+.home #content {
+	float: left;
+	padding-top: 50px;
+	padding-right: 0;
+	padding-bottom: 100px;
+	padding-left: 0px;
+}
+
+.home .author {
+	padding-right: 10px;
+}
+
+.home .entry-content {
+	display: block;
+}
+
+.home .navigation {
+	display: none;
+}
+
+.home .edit-link {
+	display: none;
+}
+
+.home .post {
+	float: left;
+	width: 762px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 0;
+	padding-left: 0px;
+}
+
+.home .cat-links {
+	display: none;
+}
+
+.home .meta-sep {
+	display: none;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, {
+	clear: both;
+}
+
+/* @end */
+
+/* @group Single */
+
+.single .post {
+	float: left;
+	padding: 0;
+	width: 100%;
+}
+
+.single #nav-above {
+	position: relative;
+	top: 300px;
+	width: 200px;
+	float: right;
+}
+
+.single #nav-below {
+	padding-top: 50px;
+}
+
+.single .entry-meta {
+	line-height: 160%;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 20px;
+	margin-left: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 0.9375em;
+}
+
+/* @end */
+
+
+/* @group Links */
+
+a:link, a:visited {
+	color: #CC0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CC0000;
+	text-decoration: underline;
+}
+
+a img {
+	border: 8px solid #eaeaea;
+}
+
+a:hover img {
+	border-color: #b5d5ff;
+}
+
+.entry-content a {
+	font-weight: normal;
+}
+
+/* @end */
+
+/* @group Lists */
+
+.entry-content ul, ol {
+	margin-left: 20px;
+}
+
+.entry-content ul li {
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+.entry-content ol li {
+	margin-left: 20px;
+}
+
+dl {
+	padding: 0 40px 20px 0;
+}
+
+dt {
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+
+dd {
+	padding: 0 20px 10px 20px;
+}
+
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
+	color: #000;
+	padding-top: 1em;
+}
+
+/* @end */
+
+/* @group Nav */
+
+.nav-previous {
+	float: left;
+	font-size: 0.9375em;
+}
+
+.nav-next {
+	float: left;
+	font-size: 0.9375em;
+}
+
+#nav-below {
+	clear: both;
+	width: 100%;
+}
+
+/* @end */
+
+/* @group Sidebars */
+
+.sidebar {
+	clear: both;
+	font-size: 0.9375em;
+	line-height: 1.5em;
+	margin: 0 0 30px 200px;
+	width: 654px;
+}
+
+.sidebar, .sidebar ul,.sidebar li {
+	display: inline;
+}
+
+.sidebar li h3 {
+	color: #000000;
+	display: inline;
+	font-size: 1em;
+	padding-right: 5px;
+	text-transform: none;
+	font-weight: normal;
+}
+
+.sidebar input#s {
+	width: 10em;
+}
+
+.sidebar ul li ul li:before {
+	color: #eaeaea;
+	content: " ";
+}
+
+.sidebar ul li ul li {
+	padding-right: 5px;
+}
+
+li#pages, li#categories, li#archives, li.linkcat, li#rss-links, li#meta {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+#search {
+	float: left;
+	width: 684px;
+	margin-top: 25px;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-top: 15px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+
+/* @end */
+
+/* @group Etc. */
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+blockquote {
+	border-bottom: 3px solid #eaeaea;
+	border-right: 3px solid #eaeaea;
+	font-family: georgia;
+	margin: 25px;
+	padding: 0 20px 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+p {
+	padding: 10px 0;
+}
+
+code, pre {
+	background: #d4d4d4;
+	overflow: auto;
+	padding: 4px;
+}
+
+h2.page-title {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+small {
+	font-size: 0.85em;
+}
+
+sub {
+	position: relative;
+	bottom: -0.2em;
+	vertical-align: baseline;
+}
+
+sup {
+	position: relative;
+	bottom: 0.3em;
+	vertical-align: baseline;
+}
+
+acronym, abbr {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+label {
+	cursor: pointer;
+}
+
+/* @end */
+.entry-meta2 {
+	color: #000000;
+	font-size: 2em;
+	line-height: 1.4em;
+	margin-bottom: 30px;
+}
+.big-title {
+	clear: both;
+	color: #CC0000;
+	font-size: 5.0em;
+	line-height: 1em;
+	font-weight: normal;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 40px;
+	padding-left: 0;
+	text-transform: capitalize;
+}
+
+span.foreign-word
+{
+  font-style: italic;
+}
+
+.entry-content dt
+{
+  font-weight: bold;
+}

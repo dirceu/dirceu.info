@@ -21,7 +21,7 @@ layout: nil
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://dirceu.info/archive/index.html</loc>
+    <loc>http://dirceu.info/archives/index.html</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>weekly</changefreq>
   </url>
