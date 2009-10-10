@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mini-Review: Erlang Programming
+title: Mini-Review - Erlang Programming
 ---
 
 [Erlang Programming](http://www.amazon.com/Erlang-Programming-Francesco-Cesarini/dp/0596518188/ref=sr_1_1?ie=UTF8&s=books&qid=1255205652&sr=8-1 "Erlang Programming") is probably the best book I've ever read about a programming language, and is worth reading even if you don't plan to use Erlang.
