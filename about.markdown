@@ -20,16 +20,16 @@ My web framework of choice for small applications is [Sinatra](http://www.sinatr
 Recommendations
 ---------------
 
-"_Dirceu is a great enthusiast of new technologies and development techniques, always looking for better ways to do his job. His team spirit is exemplary and I learned a lot from him._"<br />
+"Dirceu is a great enthusiast of new technologies and development techniques, always looking for better ways to do his job. His team spirit is exemplary and I learned a lot from him."<br />
 [Diego P. do Nascimento](http://diegop.info/) worked directly with Dirceu at Weimar Consultoria / PyTown.com
 
-"_Dirceu is a very competent professional, always concerned about being a productive developer. I strongly second his technical abilities using python, Zope and Plone._"<br />
+"Dirceu is a very competent professional, always concerned about being a productive developer. I strongly second his technical abilities using python, Zope and Plone."<br />
 [Fabiano Weimar dos Santos](http://xiru.org/) managed Dirceu at Weimar Consultoria / PyTown.com
 
-"_Dirceu is a very dedicated developer, always bringing new knowledge, technologies, languages and agile practices to the team. His contributions were very important to the success of our projects._"<br />
+"Dirceu is a very dedicated developer, always bringing new knowledge, technologies, languages and agile practices to the team. His contributions were very important to the success of our projects."<br />
 Fabrizio Colombo managed Dirceu at Unesc
 
-"_I know Dirceu for 5 years now, and I can assure that he is an excellent person and professional. He is one of the most smart and methodic people that I know, and can learn (and put in practice) new skills pretty fast. I always learn good things when I talk to him._"<br />
+"I know Dirceu for 5 years now, and I can assure that he is an excellent person and professional. He is one of the most smart and methodic people that I know, and can learn (and put in practice) new skills pretty fast. I always learn good things when I talk to him."<br />
 [Rodrigo Spillere](http://www.spillere.info/) worked directly with Dirceu in freelance projects
 
 
