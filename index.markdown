@@ -3,14 +3,15 @@ layout: default
 title: dirceu.info
 ---
 
-<div id="home">
-  {% for post in site.posts limit:4 %}
-  <div class="post">
-    <h2><a class="post_title" href="/blog{{ post.url }}">{{post.title}}</a></h2>
-    {{ post.content }}
-    <div class="view_comments_link">
-      <span class="date">{{ post.date | date:"%B %d, %Y" }}</span> - <a href="/blog{{ post.url }}#disqus_thread">View Comments</a> <br />
-    </div>
+{% for post in site.posts limit:5 %}
+<div class='post'>
+  <h2 class='title'>
+    <a href="/blog{{ post.url }}">{{ post.title }}</a>
+  </h2>
+  <div class='entry'>
+    <p>
+      {{ post.content }}
+    </p>
   </div>
-  {% endfor %}
 </div>
+{% endfor %}
