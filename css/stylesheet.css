@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #F7F7F7 url(/blog/images/img01.jpg) repeat-x left top;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: #787878; }
 
 h1, h2, h3 {
@@ -138,7 +138,7 @@ a {
   padding: 0; }
 
 #page-bgtop {
-  padding: 20px px; }
+  padding: 20px; }
 
 #content {
   float: left;
@@ -152,7 +152,7 @@ a {
 .post .title {
   height: 38px;
   margin-bottom: 10px;
-  padding: 12px 0 0 0px;
+  padding: 14px 0 0 0px;
   letter-spacing: -.5px;
   color: #000000; }
   .post .title a {
