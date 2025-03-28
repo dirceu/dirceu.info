@@ -1,0 +1,481 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>@dirceu</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  <meta
+    name="description"
+    content="A personal blog"
+  />
+  <meta name="author" content="Dirceu Pereira Tiegs" /><link rel="preload stylesheet" as="style" href="https://dirceu.info/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://dirceu.info/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/ea03ba48f7041d9bf675a067806d9d76?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="https://dirceu.info/twitter.svg" /><link rel="preload" as="image" href="https://dirceu.info/github.svg" /><link rel="preload" as="image" href="https://dirceu.info/linkedin.svg" /><link rel="preload" as="image" href="https://dirceu.info/rss.svg" />
+
+  
+
+  
+  <link
+    rel="icon"
+    href="https://dirceu.info/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://dirceu.info/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+  <meta itemprop="name" content="@dirceu">
+  <meta itemprop="datePublished" content="2024-12-30T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-12-30T00:00:00+00:00"><meta property="og:url" content="https://dirceu.info/">
+  <meta property="og:site_name" content="@dirceu">
+  <meta property="og:title" content="@dirceu">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="@dirceu">
+<link
+    rel="alternate"
+    type="application/rss&#43;xml"
+    href="https://dirceu.info/index.xml"
+    title="@dirceu"
+  />
+  <link rel="canonical" href="https://dirceu.info/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="https://dirceu.info/"
+      >@dirceu</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >Who?</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/now/"
+        >Now</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/dirceu"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/dirceu"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/dirceu"
+        target="_blank"
+        rel="me"
+      >linkedin</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://dirceu.info/index.xml"
+        target="_blank"
+        rel="alternate"
+      >rss</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Blocking websites</h2>
+  <section><p>I love keyboard shortcuts. I enjoy doing things efficiently, and I don&rsquo;t like using a mouse or trackpad because my wrists hurt, so I end up learning tons of keyboard shortcuts for the software I use on a daily basis.</p>
+<p>A common shortcut is Cmd+t on a web browser; that opens up a new tab. The problem is that I don&rsquo;t stop there; right after Cmd+t, I type:</p>
+<ul>
+<li>&ldquo;h&rdquo;: my browser autocompletes to &ldquo;hckrnews.com&rdquo;</li>
+<li>&ldquo;f&rdquo;: &ldquo;facebook.com&rdquo;</li>
+<li>&ldquo;t&rdquo;: &ldquo;twitter.com&rdquo;</li>
+<li>&ldquo;i&rdquo;: &ldquo;instagram.com&rdquo;</li>
+<li>&ldquo;r&rdquo;: &ldquo;reddit.com&rdquo;</li>
+</ul>
+<p>If I&rsquo;m even slightly bored with what I&rsquo;m doing or feeling somewhat lazy about a particular task I need to finish, I&rsquo;ll type Cmd+t and one of those letters, and spend a couple of minutes in one of those websites. It&rsquo;s always for short periods each time, but it&rsquo;s still enough to make me lose focus, pay attention to things I should not be paying attention to, get outraged with crazy Brazilian politicians, and more. Also, I do this <strong>dozens</strong> of times per day.</p>
+<p>&hellip; well, I <strong>used to</strong> do that many times per day, but that doesn&rsquo;t happen anymore.</p>
+<p>What did I do to fix that behaviour? I installed Focus.</p>
+<p>Focus is a great application that blocks certain websites and redirects distractions to a blank page with a message you can customize. You can click and start a 25 minutes timer, for instance, to do a task in a focused way; if you try to open Twitter, you&rsquo;ll be redirected to a page saying &ldquo;Go to work!&rdquo; or something like that.</p>
+<p>To fix my behaviour, though, I didn&rsquo;t use small timers: I went nuclear. I set up Focus to block every distracting site I could think of (social media, news, YouTube, etc.) between 8 am and 11 pm every single day except Sundays.</p>
+<p>It&rsquo;s been over a month, and this has been a fantastic change for me. I feel more focused, less prone to mindless browsing, and the message I put on the redirect reminds me to be present.</p>
+<p>It&rsquo;s just a single word: &ldquo;now.&rdquo;</p>
+<p>Every time I see it, I take a deep breath and think about what do I want to be doing <em>now</em>. Not what my dopamine-starved brain wants, but what <strong>I</strong> want; then, I go to that instead of scrolling Twitter or Reddit for the 90th time!</p>
+<p>There are different (free) options that you can try on your browser, extensions like StayFocusd; you can use those to do a small test.</p>
+<p>Can you go through a single day - a full day - without giving in to distractions? How do you feel about that? Try it and find out!</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 27, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-08-27-blocking-websites/"
+    >Blocking websites</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Minimalism and games</h2>
+  <section><p>In the ongoing quest to simplify my life, I have been thinking about what other &ldquo;hidden to-do lists&rdquo; I have. I trimmed down books, apps, and even my goals and plans, but I still felt some &ldquo;open threads&rdquo; running in background in my head. Then I remembered games!</p>
+<p>Ever since I broke up with Skyrim I bought more games and even went back to some of the older ones. That&rsquo;s fine: the point is not to avoid adding anything, but to constantly curate (more on that on a later post).</p>
+<p>The problem is that I filled my Nintendo 3DS and Nintendo Switch with games again: games that were there as constant reminders of things that I &ldquo;<em>should</em>&rdquo; play (after all, I spent all that money!) I decided to try a different approach: I deleted all games from both consoles (I only own digital titles), put them in their boxes and stored them in my closet.</p>
+<p>The purpose of this experiment was to find out:</p>
+<ol>
+<li>If I missed playing video games at all.</li>
+<li>If I <em>did</em> miss it, which games I actually wanted to play (as opposed to games I felt like playing to avoid sunk costs or whatnot).</li>
+</ol>
+<p>In the first few days I instinctively looked at the place where my Switch used to be every time I went to the living room, but told myself it was OK: I could just do something else. I replaced the time playing games with walks, fiction books, and writing, and felt great about it.</p>
+<p>Even though all my games were digital, and I didn&rsquo;t kept tons of boxes or physical stuff, removing them and hiding the consoles made me feel <em>free</em>.</p>
+<p>It&rsquo;s been over a month, and although I do miss playing video games a little bit, I don&rsquo;t feel excited to play any particular game right now; I know that if I unbox the consoles, I will play something, so for now I&rsquo;m keeping them hidden from sight.</p>
+<p>I have no idea how long this will last. I read somewhere that Diablo 3 will be released for Switch, so I&rsquo;ll probably buy that and play it, but until then I think I&rsquo;ll keep things this way.</p>
+<p>Video games are not bad, and I&rsquo;m not doing this to be &ldquo;productive&rdquo; or to do &ldquo;better&rdquo; things with my time: the point here is to ensure that I&rsquo;m not doing things just out of habit. I want to do what I actually enjoy doing, and to achieve that yes, I might give up on a few things.</p>
+<p>If you&rsquo;re happy playing those games, keep at it! If you think you <em>might</em> be going through a similar situation with dopamine-hungry habits, just try this experiment and store your console away; you might be surprised with the results.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 27, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-08-27-minimalism-and-games/"
+    >Minimalism and games</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Auth0 architecture</h2>
+  <section><p>I wrote on Auth0&rsquo;s blog! Click here to learn more about how Auth0 architects its services to ensure scalability and high availability to handle more than 1.5 billion logins per month.</p>
+<p><strong>Update</strong></p>
+<p>The post is spreading out well! It has been featured on Pony Foo Weekly, InfoQ, High Scalability, and SRE Weekly!</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 25, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-08-25-auth0-architecture/"
+    >Auth0 architecture</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Minimalism and to-do lists</h2>
+  <section><p>I&rsquo;ve been learning more about minimalism, and the more I apply this concept to different areas of my life, the happier I become. It&rsquo;s impressive how simplification and minimalism can make things clearer and lightweight.</p>
+<p>One recent area in which I applied minimalism was my to-do list&hellip; or, rather, my to-do listS.</p>
+<p>I love making lists. I love planning and I have lots of lists related to goals, things I want to do someday, projects I started, projects I want to start, ideas for posts, ideas for projects, plans for things I want to do in my personal life, ideas on how to improve my wife&rsquo;s business, and so on.</p>
+<p>I also tend to have bookmarks on my browser, articles in Pocket, and books in a &ldquo;to-read&rdquo; folder.</p>
+<p>Recently, while minimizing my physical possessions, I experienced a feeling of clarity and freedom. It felt like all that <em>stuff</em> was waiting for me to do something with them, or clean them, or enjoy them more. Now, I felt free!</p>
+<p>After that (ongoing) experience I remembered a quote from Bruce Lee&rsquo;s &ldquo;<em>Striking Thoughts</em>&rdquo;, one of my all-time favourite books:</p>
+<blockquote>
+<p>To live now you must die to yesterday.</p></blockquote>
+<p>That resonated with me. I was getting rid of physical possessions that made sense in the past, but didn&rsquo;t make sense anymore; by removing those, I felt more present, freer, happier. Then I thought: &ldquo;<em>wait, why don&rsquo;t I apply this to my to-do lists, goals, and projects?</em>&rdquo;</p>
+<p>And I did.</p>
+<p>I created a backup and stashed it in an online bucket, and then proceeded to delete all my bookmarks, all my Pocket files, all the books from my Kindle, all the project files in my computer, all my to-do lists, all my goals, all my ideas.</p>
+<p>Now I had a clean slate.</p>
+<p>As a result of that cleanup, I felt free, excited and ready to <em>do something</em>. I no longer felt the burden of all those things I &ldquo;<em>should</em>&rdquo; be doing, &ldquo;<em>should</em>&rdquo; be paying attention, &ldquo;<em>should</em>&rdquo; be getting back to.</p>
+<p>Instead, I wrote. I wrote three posts in one day, and immediately scheduled them for publication; I did that after several months without publishing anything. I don&rsquo;t have a list of ideas now: I simply write, review, and post.</p>
+<p>I also wrote code. I wrote some small utilities and got back to a project I had abandoned in the past. I don&rsquo;t feel burdened by hundreds of directories under <code>~/code</code>; now I only have a single project there.</p>
+<p>Analysis paralysis, the paradox of choice&hellip; these things are real. They overwhelm us, paralyze us, and make us unhappy.</p>
+<p>Removing physical clutter made me feel less burdened and overwhelmed by all the things I should be using or cleaning or doing with those things.</p>
+<p>Removing ideas, goals, and projects made me feel free to actually do something instead of following resolutions that I made in the past, in different circumstances and mental states.</p>
+<p>I still write 1-3 work-related items in a to-do list every morning, and I break those items in small and granular tasks to make myself productive; however, this is not about tracking: it&rsquo;s about <em>processing</em> and <em>thinking</em>. I delete that list at the end of every day.</p>
+<p>So, get those lists of ideas and goals and throw them away. Burn them. You&rsquo;re not the same person you were yesterday. If you want to do something, <em>just do it</em>; if you don&rsquo;t want to do something, don&rsquo;t make yourself miserable.</p>
+<p>Remember: <em>&ldquo;To live now you must die to yesterday.</em>&rdquo;</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 25, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-08-25-minimalism-and-to-do-lists/"
+    >Minimalism and to-do lists</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Mobile minimalism</h2>
+  <section><p>I used to spend a lot of time looking at my cellphone refreshing Slack, Twitter, Instagram, Facebook, Reddit, Gmail, WhatsApp, Telegram&hellip; During conversations, during meetings, when I was watching movies, at any time, I&rsquo;d be &ldquo;<em>just checking something real quick</em>&rdquo;. It was boring but also utterly addictive.</p>
+<p>I have a much healthier relationship with my phone now; in fact, I barely use it. This is what I changed:</p>
+<ul>
+<li>I deleted my Instagram and Facebook accounts.</li>
+<li>I uninstalled Twitter, Reddit, and Gmail.</li>
+<li>I uninstalled Slack as well, but I install it on my on-call shifts (and remove it again afterwards).</li>
+<li>I deleted every social media, game, or general time-sink from my phone.</li>
+<li>I muted/silenced most people and groups on WhatsApp / Telegram / Messages, and I check those things once per day or so.</li>
+<li>I set a Do Not Disturb schedule from 8 pm to 9 am. During that time, only my immediate family (wife, parents) and a couple of friends can reach me; other than that, I get no notifications.</li>
+<li>I cleaned up my home screen to focus on what I want to reinforce.</li>
+</ul>
+<p>This is what my home screen looks like:</p>
+<p><img src="/wp-content/uploads/2018/08/IMG_1374.jpg" alt="phone"></p>
+<p>I have no other apps. With this configuration, I help myself do three things:</p>
+<ol>
+<li>Read (Kindle)</li>
+<li>Listen to podcasts (Overcast)</li>
+<li>Listen to music (Spotify)</li>
+</ol>
+<p>Why do all of this?</p>
+<p>Because <strong>I</strong> want to be in control of my attention. The decision to engage with something or someone should come from me, not from anyone else.</p>
+<p>Most apps are designed to make you use them more and more; in contrast, I designed my phone experience to be boring, silent and focused.</p>
+<p>I&rsquo;m optimizing for non-engagement, and it feels great! I&rsquo;m more focused, I pay more attention to the people around me, I can focus on what I&rsquo;m reading or watching, and I&rsquo;m more mindful in general.</p>
+<p>I highly recommend spending some time thinking about what relationship you want to have with your phone, and making changes to take more control of your attention and your life.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 24, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-08-24-mobile-minimalism/"
+    >Mobile minimalism</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Reading for mood vs reading to learn</h2>
+  <section><p>For most of my adult life, I read non-fiction books to learn something new, to get advice, or to get better at something I was already doing. I&rsquo;d focus on reading new books every time, take notes, and (in some cases) try to apply what I had learned in my work and life.</p>
+<p>Then, a few years ago I read this quote in &ldquo;Fooled by Randomness&rdquo; by Nassim Taleb:</p>
+<blockquote>
+<p>I do not know if it applies to other people, but, in spite of my being a voracious reader, I have rarely been truly affected in my behavior (in any durable manner) by anything I have read. A book can make a strong impression, but such an impression tends to wane after some newer impression replaces it in my brain (a new book).</p></blockquote>
+<p>That prompted me to think, and well, sure enough, every book sets up a new mood. Depending on the book I was reading I might get inspired, or analytical, or want to write, or want to hack on something, and so on: it would change my disposition, at least for that day or week while I was still in contact with the book.</p>
+<p>I decided to take that lesson and use it to my advantage: by re-reading a book (or my notes about it) I can now manipulate my mood on any given day!</p>
+<p>I can make myself feel calmer when I&rsquo;m stressed, reduce my spending habits when I want to buy something expensive, get more analytical when I&rsquo;m thinking about a problem emotionally, and so on. It&rsquo;s a really powerful thing, and it works like a charm for me.</p>
+<p>I cycle through different books to achieve different moods, but these are some of my favourites:</p>
+<ul>
+<li>To get calm and relaxed: &ldquo;Striking Thoughts&rdquo; (Bruce Lee), &ldquo;Fuck It!&rdquo; (John C. Parkin).</li>
+<li>To reduce my desires ($$$, career): &ldquo;Life Nomadic&rdquo; (Tynan), &ldquo;Goodbye, Things&rdquo; (Fumio Sasaki).</li>
+<li>To get analytical: &ldquo;The 4-Hour Work Week&rdquo; (Tim Ferriss), &ldquo;The 4-Hour Chef&rdquo; (Tim Ferriss)</li>
+<li>To feel like reading even more: anything by Nassim Taleb, but especially &ldquo;Fooled by Randomness&rdquo; and &ldquo;The Black Swan&rdquo; (lots of great recommendation and love for books in those two).</li>
+<li>To feel like writing: &ldquo;On Writing&rdquo; (Stephen King), &ldquo;2k to 10k&rdquo; (Rachel Aaron)</li>
+<li>To feel like hacking: &ldquo;Masters of Doom&rdquo; (David Kushner).</li>
+<li>To just do it: &ldquo;The Obstacle is the Way&rdquo; (Ryan Holiday), &ldquo;Ego is the Enemy&rdquo; (Ryan Holiday), &ldquo;Crushing It!&rdquo; (Gary Vee).</li>
+</ul>
+<p>Usually, I don&rsquo;t need much: just 5-15 minutes reading or just skimming a book (with highlighted content) is enough to change my mood and disposition. Some days it takes longer than that.</p>
+<p>In any case, this is one of the reasons why I now spend almost as much time re-reading books as I do reading new ones!</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 23, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-08-23-reading-for-mood-vs-reading-to-learn/"
+    >Reading for mood vs reading to learn</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Reading devices</h2>
+  <section><p>I used to love paper books! I fondly recall a copy of The Lord of The Rings that I read and re-read multiple times. I enjoyed collecting books from my favourite authors (such as Neil Gaiman and Terry Pratchett), and proudly displayed them on my bookshelves.</p>
+<p>I don&rsquo;t like to read paper books anymore. They&rsquo;re usually heavy, awkward to hold, and end up hurting my wrists (already damaged by programming-induced RSI) if I try reading them for long.</p>
+<p>About collecting and &ldquo;proudly displaying&rdquo; them&hellip; let&rsquo;s be honest: no one cares. Caring about what other people will think when they see your bookshelf is a recipe for bad incentives: you&rsquo;ll end up reading books you think you <em>should</em>, or just purchasing (without really reading) books that convey you in what you think is a more favourable light.</p>
+<p><em>sigh</em> 🙄</p>
+<p>Like I wrote before, now I only care if a book is:</p>
+<ol>
+<li>Enjoyable</li>
+<li>Useful</li>
+</ol>
+<p>Reading paper books is not enjoyable for me (because of the reasons I already mentioned), and displaying them is not useful; this is why I sold or gave away all my paper books and comics.</p>
+<p>After a lot of experimentation over the years (hell, I began trying to read digital books on a Palm TX 10+ years ago) I reached my ideal state, and now I use a Kindle and a laptop to read books.</p>
+<p>The Kindle&rsquo;s single purpose is to read fiction. I only read fiction there on purpose: I know that when I sit or lay down with my Kindle, I&rsquo;m gonna relax and enjoy something without thinking about the usefulness or writing down notes.</p>
+<p>This is the same reason I don&rsquo;t play games on my computer or my phone, by the way: I like having separate devices for separate purposes. When I want to play games, I want to sit on the couch and relax, just playing. I don&rsquo;t want notifications or unrelated subjects to pop up.</p>
+<p>So, I read fiction exclusively on the Kindle. I do read a lot of non-fiction though, and I do that on my laptop, using Kindle Cloud Reader on the browser. A laptop might sound like an awkward device to read, but it has some advantages over something like a Kindle:</p>
+<ol>
+<li>It&rsquo;s faster to move around, skim, skip chapters, go back, etc. I don&rsquo;t necessarily finish non-fiction books or read them in order anymore: I focus on learning something useful.</li>
+<li>It favours <em>active writing</em>: I can write notes as I read, jot down ideas, research something, get information from other sources in order to understand (or confirm) something, and more. If I don&rsquo;t write about or apply what I&rsquo;m reading I&rsquo;ll forget everything about it in a week or less.</li>
+<li>It&rsquo;s more awkward to read laying down, which favours a more active mood and also provides an incentive for a shorter reading session. Shorter sessions are important for me when reading non-fiction books because it makes it more likely for me to write down and apply concepts, and also to properly &ldquo;digest&rdquo; what I&rsquo;m reading.</li>
+</ol>
+<p>I find that having different devices really help setting up different &ldquo;moods&rdquo; and habits related to reading; for example, I noticed a big improvement in retention and &ldquo;usefulness&rdquo; when I stopped reading non-fiction books lying down, and focused on applying instead of finishing.</p>
+<p>Anyway, this is what works for me! Hope you find it useful.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 22, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-08-22-reading-devices/"
+    >Reading devices</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Number of finished books is a vanity metric</h2>
+  <section><p>I used to keep track of how many (non-fiction) books I&rsquo;ve read per month or year. I&rsquo;d <em>casually</em> drop that information sometimes on a conversation or use my GoodReads account to boast about that.</p>
+<p><em>What a douche.</em> 🤦‍♂️</p>
+<p>Anyway, I never thought much about this until I saw a tweet or interview from Naval Ravikant saying that &ldquo;number of books read is a vanity metric.&rdquo; That opened my eyes about my behaviour and changed my general approach regarding non-fiction books.</p>
+<p>Is the book super exciting and full of novel concepts for you? Good, keep at it.</p>
+<p>There&rsquo;s a whole section that covers a topic you already know? Skip it.</p>
+<p>You found an interesting idea at the beginning of the book, and now you&rsquo;re torn between applying that idea vs. going through the rest of the book to see if there&rsquo;s <strong>just one more</strong> tiny bit of information or advice you could use? Screw that!</p>
+<p>A book can be:</p>
+<ol>
+<li>Enjoyable</li>
+<li>Useful</li>
+</ol>
+<p>If what you&rsquo;re reading is boring and covers something you already know or something you&rsquo;re not interested about, drop it.</p>
+<p>Drop it. Skim it. Jump around. It&rsquo;s <strong>your</strong> book.</p>
+<p>No one will give you a prize for completing a book. No one cares. Take what&rsquo;s useful or enjoyable, and then move on.</p>
+<p>So many people get &ldquo;stuck&rdquo; on books because they think they <em>should</em> finish it. The result? They don&rsquo;t move on to other books; they don&rsquo;t learn anything; they don&rsquo;t apply what they&rsquo;ve learned; all because of guilt, because of &ldquo;should&quot;s or &ldquo;supposed to&quot;s.</p>
+<p><em>&ldquo;Oh, but I paid for this book, and now I should finish it.&rdquo;</em> Avoiding sunk costs is not a worthy way to live. Even if you &ldquo;wasted&rdquo; money, it doesn&rsquo;t mean you should waste time, energy, and attention.</p>
+<p>I bought Sapiens a couple of years ago or so, as it was recommended multiple times in different blog posts and podcasts. It sounded super interesting!</p>
+<p>&hellip; but DAMN, it starts boring. I tried reading it two or three times and was almost giving up when I remembered Naval&rsquo;s advice to jump around. I skipped a couple of chapters and was <strong>immediately</strong> hooked. It&rsquo;s one of the best books I&rsquo;ve ever read, one of my all-time favourites - and yet, I still haven&rsquo;t read the first couple of chapters, and likely never will.</p>
+<p><em>It doesn&rsquo;t matter.</em></p>
+<p>You&rsquo;re not better or worse by reading the books you&rsquo;re <em>&ldquo;supposed to&rdquo;</em> read, or reading them the way they <em>should</em> be read. No one cares.</p>
+<p>Remember: if it&rsquo;s not fun or useful, drop it and move on.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 21, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-08-21-number-of-finished-books-is-a-vanity-metric/"
+    >Number of finished books is a vanity metric</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Silly things</h2>
+  <section><p>In the past few months I took some time to evaluate:</p>
+<ul>
+<li>What I do or consume on a regular basis (books, music, games, tv shows, Twitter, etc)</li>
+<li>What really brings me joy</li>
+</ul>
+<p>One thing that has been sitting in the back of my head for a long time (not fully examined) is that the content I consume has the power to change my mood and even my interests for a certain period of time - which is one of the reasons why I make a point of reading my quotes and self-advice regularly.</p>
+<p>When I started to compare what I do/consume on a regular basis and what brings me joy, I realized that there was a huge discrepancy. One clear example is that violent/dark content (games, movies, tv shows) - which is something I tend to consume a lot - makes me feel sad, anxious, and upset, at least slightly (which in some circumstances is all that it takes to create a bad day); playing some Doom or listening to some heavy metal bands (again, something I enjoyed doing every day) would make me more tense, anxious, and overwhelmed - even if I felt like doing it! Watching some particular episodes of Game of Thrones would make me feel physically sick, even if I was very curious about it.</p>
+<p>After experimenting with that, I decided to try the opposite and only consumir <em>chill</em>, silly content&hellip; and it works! I started joking around, smiling more, humming to weird songs, and I found out really effective ways to improve my mood and make almost any day a &ldquo;good day&rdquo;.</p>
+<p>Some things I&rsquo;ve removed:</p>
+<ul>
+<li>I don&rsquo;t watch dark/violent/dramatic movies or TV shows. No more The Walking Dead or The Game of Thrones. 13 Reasons Why? Never.</li>
+<li>I don&rsquo;t play games that make me feel anxious, tense, or overly excited. No more Doom (or most other FPS games), no more fast-paced violent games.</li>
+<li>I don&rsquo;t read fiction books that makes me feel bad. American Psycho for instance&hellip; holy shit, <em>what the flying fuck</em> was the author thinking?</li>
+</ul>
+<p>What did I do instead? I started looking back and trying again things that made me feel happy and relaxed in the past&hellip; like watching anime, playing Animal Crossing, and listening to goofy happy songs. Some examples per category:</p>
+<ul>
+<li>Games: Animal Crossing, Stardew Valley, Terraria, and Phoenix Wright Trilogy. All silly, (largely) non-violent, and cute. ✨</li>
+<li>Movies and TV shows: I scoured reddit and YouTube for &ldquo;chill anime&rdquo; recommendations and found some great ones! I recently finished &ldquo;Gekkan Shouko Nozaki-kun&rdquo; and &ldquo;Mushishi&rdquo;, and I plan to watch the original Dragon Ball again (before DBZ). I also started Little Witch Academia but I have some mixed feelings about it, not sure I&rsquo;ll continue.</li>
+<li>For music, I&rsquo;m super into game soundtracks now. I&rsquo;ve been listening non-stop to the OSTs from Stardew Valley, VA-11 Hall-A, and The Crypt of the Necrodancer.</li>
+<li>As for books, I&rsquo;ve removed from my Kindle every book that I &ldquo;should&rdquo; read for self-improvement and bought a bunch from my favorite genre: cozy mystery! I&rsquo;ve been reading a lot of Agatha Christie and Arthur Conan Doyle and I love it. I&rsquo;m also going through a bunch of comic books and mangas including Calvin &amp; Hobbes and Dr Slump, which are definitely some of my all-time favorites.</li>
+</ul>
+<p>As with most of the improvements I achieved recently, this is related to mindfulness and is far from perfect: I still catch myself feeling angry for no reason after doing a long sketch of work while listening to Children of Bodom. As someone said, unconsciously we don&rsquo;t want what&rsquo;s best for us, we want what&rsquo;s <em>familiar</em>, so I need a conscious effort until silly/chill replaces my current &ldquo;default setting&rdquo;.</p>
+<p><em>PS: I wrote this on a bus ride without a good way to review or add links. #YOLO.</em></p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Mar 25, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-03-25-silly-things/"
+    >Silly things</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Control</h2>
+  <section><p><img src="/images/david-travis-547046-unsplash.jpg" alt="">(Photo by David Travis on Unsplash.)</p>
+<blockquote>
+<p>&ldquo;More money really DOESN&rsquo;T make you happy; the skill it takes to be happy with more money is the same skill it takes to be happy without it.&rdquo;</p></blockquote>
+<p>(I know this is from Amy Hoy but I can&rsquo;t find the tweet anymore)</p>
+<p>This quote has been in my mind a lot recently. This is not just money-related; you can easily replace &ldquo;money&rdquo; with other types of objects or circumstances and you get the same overall principle: that being happy/at peace/focused/in control is a <strong>skill</strong> and it&rsquo;s largely independent from external circumstances.</p>
+<p>-&ndash;</p>
+<p>I burnt out really bad at my job last year, and one of the reasons was that I spent a lot of energy and time trying to be &ldquo;on top of things&rdquo; and trying to help with <em>every</em> situation - with incidents, tasks, advice, proofreading postmortems, you name it - even when the work itself was not completely related to my own work. I love helping people out, but to do that <strong>and</strong> focus on my own tasks I had to routinely work 10-12 hour days, and the stress + long hours + other family health issues ended up burning me out.</p>
+<p>With that quote in mind, when I got back I decided to shift this around completely. This involves learning:</p>
+<ul>
+<li>that &ldquo;I can help if I get involved&rdquo; is different than &ldquo;I should get involved&rdquo;.</li>
+<li>to set hard limits around my working time, doing 8 hours per day.</li>
+<li>that I shouldn&rsquo;t rush to fix things when I see something broken. <em>It&rsquo;s OK</em>, most things don&rsquo;t matter that much.</li>
+<li>that not delegating is largely arrogance-driven, in my case (<em>&ldquo;if I don&rsquo;t get involved, X will happen / will not happen and that&rsquo;s bad!&rdquo;</em>)</li>
+<li>that&rsquo;s OK to say &ldquo;no&rdquo; more often.</li>
+</ul>
+<p>These lessons are still sinking in, but the skill I&rsquo;m building - how to better control my energy, time, and attention - is extremely valuable and relevant to any scenario. It&rsquo;s about improving myself and my reaction to events instead of trying to just change my circumstances.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Mar 20, 2018</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2018-03-20-control/"
+    >Control</a
+  >
+</section><nav class="mt-14 flex"><a class="btn not-prose" href="/"
+    >←Prev Page</a
+  ><a class="btn not-prose ml-auto" href="/page/3/"
+    >Next Page→</a
+  ></nav></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+</footer>
+</body>
+</html>

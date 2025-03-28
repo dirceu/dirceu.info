@@ -1,0 +1,334 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Posts-@dirceu</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  <meta
+    name="description"
+    content="A personal blog"
+  />
+  <meta name="author" content="Dirceu Pereira Tiegs" /><link rel="preload stylesheet" as="style" href="https://dirceu.info/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="https://dirceu.info/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/ea03ba48f7041d9bf675a067806d9d76?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="https://dirceu.info/twitter.svg" /><link rel="preload" as="image" href="https://dirceu.info/github.svg" /><link rel="preload" as="image" href="https://dirceu.info/linkedin.svg" /><link rel="preload" as="image" href="https://dirceu.info/rss.svg" />
+
+  
+
+  
+  <link
+    rel="icon"
+    href="https://dirceu.info/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://dirceu.info/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+  <meta itemprop="name" content="Posts">
+  <meta itemprop="datePublished" content="2024-12-30T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-12-30T00:00:00+00:00"><meta property="og:url" content="https://dirceu.info/posts/">
+  <meta property="og:site_name" content="@dirceu">
+  <meta property="og:title" content="Posts">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Posts">
+<link
+    rel="alternate"
+    type="application/rss&#43;xml"
+    href="https://dirceu.info/posts/index.xml"
+    title="@dirceu"
+  />
+  <link rel="canonical" href="https://dirceu.info/posts/" />
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="https://dirceu.info/"
+      >@dirceu</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >Who?</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/now/"
+        >Now</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/dirceu"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/dirceu"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/dirceu"
+        target="_blank"
+        rel="me"
+      >linkedin</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="https://dirceu.info/index.xml"
+        target="_blank"
+        rel="alternate"
+      >rss</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!"></h2>
+  <section><blockquote>
+<p>&ldquo;There is only one success: to be able to spend your life in your own way.&rdquo;</p></blockquote>
+<p>Christopher Morley</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Apr 15, 2017</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2017-04-15-success/"
+    ></a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!"></h2>
+  <section><blockquote>
+<p>&ldquo;The more aware I can be of fear-based feelings when they arise and the more I consciously make an effort to always be dismissing them, the more my world gains color and depth. I don&rsquo;t feel like I need a lot of things anymore, what&rsquo;s around me is pretty amazing by itself and I can be quite happy with it. The best thing I can do to improve my life is to avoid immersing myself in mental projection of possible futures.&rdquo;</p></blockquote>
+<p>Delusion Damage</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Apr 13, 2017</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2017-04-13-fear-based-feelings/"
+    ></a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!"></h2>
+  <section><blockquote>
+<p>&ldquo;Desire is in fact a form of suffering, it makes you feel disturbed that you don’t have something, and it makes you believe you can’t let yourself be happy until you have that something. Maybe it’s time to decide that you will let yourself be happy no matter what happens in the external world. Be mindful of this in your daily life and bit by bit the suppressed natural happiness will emerge from within you.&rdquo;</p></blockquote>
+<p>Delusion Damage</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Mar 26, 2017</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2017-03-26-desire/"
+    ></a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!"></h2>
+  <section><blockquote>
+<p>&ldquo;When everything’s an experiment, you shed the fear that comes with trying new things.&rdquo;</p></blockquote>
+<p>Mig Reyes</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Mar 22, 2017</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2017-03-22-experiments/"
+    ></a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!"></h2>
+  <section><blockquote>
+<p>&ldquo;The bad news is you&rsquo;re falling through the air, nothing to hang on to, no parachute. The good news is there&rsquo;s no ground.&rdquo;</p></blockquote>
+<p>Pema Chödrön</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Mar 19, 2017</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2017-03-19-groundlessness/"
+    ></a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">On Final Things</h2>
+  <section><blockquote>
+<p>Unfortunately, we’re likely to forget the wisdom on offer here within hours. We’ll be back to losing perspective – and overlooking the sunlight and the charm of the breeze. These are the sort of ungrateful minds we all have – which is why we continuously need the resources of art to renew our connection with the unbearable but deeply necessary truths.</p></blockquote>
+<p>On Final Things</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 15, 2015</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2015-08-15-on-final-things/"
+    >On Final Things</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Perspective</h2>
+  <section><p>Life has its ups and downs, and sometimes we may be down for a while. Maybe the day job pays too little, maybe you&rsquo;re only doing boring stuff, or that special person started dating someone else, or you dropped your cellphone and it&rsquo;s broken now&hellip; Anyway, lots of things can happen and make us feel bad.</p>
+<p>A couple of years ago, in one of these &ldquo;down moments&rdquo;, I read one of the most important books of my life: Men&rsquo;s Search for Meaning. Written by Viktor Frankl, an Austrian psychologist that survived the Holocaust, the book describes the daily life in a concentration camp: pain, suffering, hunger, anger, humiliation, and despair&hellip; but also the attitude of some victims: they avoided feeling anger or resentment towards their captors, they didn&rsquo;t drown in self-pity, and they did the best they could to find meaning in that experience.</p>
+<p>One day, while reading a passage about how some people in the camp lost their toes to frostbite because they had to work in the winter without shoes (just to come back to a hut and eat soup that was barely enough to survive), I remembered that earlier I complained to my girlfriend about how bored I was with my job.</p>
+<p>I felt like an entitled son of a bitch.</p>
+<p>Here I was: healthy, young, working at home, with good food, books, entertainment&hellip; complaining that things were &ldquo;boring&rdquo;.</p>
+<p>That, my friends, is lack of perspective.</p>
+<p>That struck me hard, but as with any other story, the impression fades away, and I quickly started whining again. With time, though, I found a good way to keep my perspective: gratitude practice.</p>
+<p>Gratitude practice consists in keeping a journal where you write down at least 3 things that you&rsquo;re grateful for on that day. Here are some of my favorite topics:</p>
+<ul>
+<li>People that love me</li>
+<li>People I love</li>
+<li>Living under a roof</li>
+<li>Having the freedom to come and go as I please</li>
+<li>Being able to walk</li>
+<li>Being able to see, hear, taste, smell, and feel</li>
+<li>Being able to pay my bills through my work</li>
+</ul>
+<p>You have to let yourself feel it. It only works if you allow yourself the time and space to feel the gratitude. Don&rsquo;t make this just another item on your todo list. Take some time. Smile.</p>
+<p>Bad things will happen, that&rsquo;s life: dear people may die, you may get sick, you may lose your job&hellip; Shit happens. What we can do is to control how we react to those events: we can choose to be grateful for what we have, we can keep perspective.</p>
+<p>We don&rsquo;t need near-death experiences to start giving value to the right things - but only if we stop, breathe, and start paying attention to every good aspect of our lives.</p>
+<p>This daily practice can change your experience, your choices, your mood.</p>
+<p>Smile. :-)</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Jul 10, 2015</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2015-07-10-perspective/"
+    >Perspective</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Hello Florianópolis</h2>
+  <section><p>I&rsquo;ve never been <em>really</em> happy with the city I&rsquo;ve lived in my whole life, Criciúma. It&rsquo;s a small city with not much to do, and although I have friends and family there, I always wanted to experience living in another city, meeting new people, and having new experiences.</p>
+<p>I&rsquo;ve been working from home for many years now, but it took me a long time to realize I was procrastinating on leaving town. Every year I would come up with an excuse:</p>
+<ul>
+<li>&ldquo;I need to finish college&rdquo; (I did it four years ago)</li>
+<li>&ldquo;My company needs me here&rdquo; (it&rsquo;s been closed for a year now)</li>
+<li>&ldquo;My girlfriend needs to finish college&rdquo; (and she did it one year ago)</li>
+</ul>
+<p>&hellip; and the biggest one: &ldquo;I don&rsquo;t know where I should live.&rdquo; Here is the thing: I&rsquo;ve been working remotely for the past 8 years, with a brief 10 months of working in an office in the middle of that. There is nothing stopping me from living anywhere I want here in Brazil or even in other countries that don&rsquo;t require a working visa. I wanted to leave Criciúma, but I didn&rsquo;t have any good reason to go to any particular city, and this lead me to analysis paralysis.</p>
+<p>Morgana and I talked about it many times: &ldquo;We can live in Curitiba! It&rsquo;s a very clean city, with lots of theaters, culture and interesting people!&rdquo;; &ldquo;Oh, we can live a few months in Argentina!&rdquo;; &ldquo;I know! We can go to New Zealand!&rdquo;. Every time we would get excited, research the place and&hellip; nothing.</p>
+<p>At the beginning of 2014, after I started hanging out with some very smart people, and I realized something: I could just pick ANY city, move there, and adjust if needed. What was the worst-case scenario? I could lose a lot of money and I would have to go back to Criciúma and maybe live with my mother. The world would not end; I would not lose my job; I would not lose my friends&hellip; just money. Money that I could always get back by working extra hard and doing some freelancing on the side.</p>
+<p>So in February, Morgana and I talked and decided to move to the beautiful Florianópolis. It&rsquo;s a much bigger city with great opportunities for fun and work for both of us; it&rsquo;s far enough from Criciúma to force us to make new friends and do new things, and yet it&rsquo;s close enough to visit our families at least once a month (including my father, who lives in São Paulo, because of lower plane ticket prices). It will make it easier to travel too, since Florianópolis has an international airport.</p>
+<p>[caption id=&ldquo;attachment_107&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;800&rdquo;]<img src="/images/IMG_0220.jpg" alt="This is me in Floripa"> This is me in Floripa[/caption]</p>
+<p>When I started really writing down my fears, the worst-case scenarios and how I could recover from them, it was ridiculously simple to make a decision: there was basically no downside, and the upside was enormous. I read about this concept of &ldquo;fear-setting&rdquo; before, but I&rsquo;ve never used it before to make a such an important life decision. I&rsquo;m now making a point to revisit it every week to see what else I&rsquo;m postponing because of uncertainty.</p>
+<!-- raw HTML omitted -->
+<p>We finally moved here on June 17th. I&rsquo;m happy we finally took the plunge and moved, and I&rsquo;m really excited about the new possibilities!</p>
+<p>Hello Floripa!</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Jun 22, 2014</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="https://dirceu.info/posts/2014-06-22-hello-floripa/"
+    >Hello Florianópolis</a
+  >
+</section><nav class="mt-14 flex"><a class="btn not-prose" href="/posts/page/5/"
+    >←Prev Page</a
+  ></nav></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+</footer>
+</body>
+</html>
