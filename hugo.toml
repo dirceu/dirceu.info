@@ -1,4 +1,4 @@
-baseURL = 'https://dirceu.info/'
+baseURL = 'https://dirceu.github.io/'
 languageCode = 'en-us'
 title = '@dirceu'
 theme = 'paper'
