@@ -1,0 +1,322 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Posts-@dirceu</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  <meta
+    name="description"
+    content="A personal blog"
+  />
+  <meta name="author" content="Dirceu Pereira Tiegs" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/ea03ba48f7041d9bf675a067806d9d76?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" /><link rel="preload" as="image" href="http://localhost:1313/github.svg" /><link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" /><link rel="preload" as="image" href="http://localhost:1313/rss.svg" />
+
+  
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="http://localhost:1313/"
+      >@dirceu</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >Who?</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/now/"
+        >Now</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/dirceu"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/dirceu"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/dirceu"
+        target="_blank"
+        rel="me"
+      >linkedin</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="http://localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >rss</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    >
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC Report - Week 12</h2>
+  <section><p>Quick report: this week I&rsquo;ve finished the &lsquo;reloading&rsquo; task - now with automated tests, thanks to the help of <!-- raw HTML omitted -->Christian<!-- raw HTML omitted -->, my mentor. Now I need to document my <!-- raw HTML omitted -->branches<!-- raw HTML omitted --> and write a post about what I&rsquo;ve done on the coding period. I need to do this on this weekend, because next monday is &lsquo;pencils down&rsquo; date, when all mentors must submit a final evaluation of the work done by their students.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 15, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-08-15-gsoc-report-week-12/"
+    >GSoC Report - Week 12</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC report - week 11</h2>
+  <section><p>I&rsquo;ve nearly finished the &lsquo;reloading&rsquo; task described in my <!-- raw HTML omitted -->last report<!-- raw HTML omitted -->; now we&rsquo;re able to reload the config file without modifications. The code is quite simple: we open and parse the config file, using the list of storages defined there to see what storages needs to be removed (and then we disable them) and what storages needs to be added (and then we add and &lsquo;recover&rsquo; them). I&rsquo;m now working on a automated test to prove the implementation is right.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 9, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-08-09-gsoc-report-week-11/"
+    >GSoC report - week 11</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC report - week 10</h2>
+  <section><p>Just a quick report: this week I worked on reloading the zeo.conf file, so we can add or remove storages from the ZEORaid server without having to restart it. It seems to be working well, but it needs better (automated) testing and I need to use the correct ZODB.config options to recognize the config file without problems (this has been my main issue for the week). My work is on <!-- raw HTML omitted --><!-- raw HTML omitted -->this branch<!-- raw HTML omitted --><!-- raw HTML omitted -->.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 2, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-08-02-gsoc-report-week-10/"
+    >GSoC report - week 10</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC report - week 9</h2>
+  <section><p>This week I&rsquo;ve been working on allowing to define and remove new backend storages while running using the management tool or reloading the config. I worked first on defining a new storage using the management tool. Using <!-- raw HTML omitted --><!-- raw HTML omitted -->this branch<!-- raw HTML omitted --><!-- raw HTML omitted -->, you can connect to a new ClientStorage using &lsquo;zeoraidX-manage-main add IP:PORT:STORAGE_NAME&rsquo;. Example:</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Now I need to work on the following things:</p>
+<!-- raw HTML omitted -->
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Jul 26, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-07-26-gsoc-report-week-9/"
+    >GSoC report - week 9</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC report - week 8</h2>
+  <section><p>I&rsquo;ve been working on the task I described on my last post, about parallelizing request to multiple backends. After many time getting strange errors on the tests I got to isolate the problem - my code wasn&rsquo;t handling the exceptions right.</p>
+<p>ZEORaid considers ZODB.POSException.POSError and transaction.interfaces.TransactionError valid answers from storages, as they don&rsquo;t indicate storage failure. The problem was that I was getting some ConflictErrors (a kind of TransactionError) that were being considered a sign of storage failure when running ZODB tests.</p>
+<p>Christian helped me to work on hadling this and now all tests are passing. I&rsquo;m just refactoring the code now and will procceed to the next task: allow defining/removing new backend storages while running using the client tool or reloading the config.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Jul 18, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-07-18-gsoc-report-week-8/"
+    >GSoC report - week 8</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC report - week 5</h2>
+  <section><p>In the beginning of this week I finished the tests for my last task and done some refactoring on it&rsquo;s code. My main problem were to get a storage implementation to use on my tests; first I wrote a subclass of ZODB.DemoStorage.DemoStorage, but it wasn&rsquo;t implementing the full API needed by ZEORaid. Christian said that I should change the base class to ZODB.FileStorage.FileStorage - a pretty trivial change to do, and it solved my problems. After that I fixed some things in the test (that was getting possible false alarms).</p>
+<p>Finishing that I begin my current task: parallelizing requests to multiple backends. Basically what ZEORaid currently does when it needs to send write requests to multiple backends is:</p>
+<!-- raw HTML omitted -->
+<p>What we want it to do is:</p>
+<!-- raw HTML omitted -->
+<p>Reading (briefly) the source code I&rsquo;ve found 4 methods that loops the list of backends in the &ldquo;optimal&rdquo; state and make calls:</p>
+<!-- raw HTML omitted -->
+<p>The first three methods could be changed to start len(self.storages_optimal) threads and make the work; then we could use join() to wait for all answers and proceed. About the 4th method, _apply_single_storage(), Christian said that &ldquo;Distributing the read requests in parallel is a good idea too, but a bit less important than distributing the write requests. Serialized writes currently cause a lot of overhead and slowness and reading won&rsquo;t benefit as much, so I&rsquo;d leave apply_single_storage out of the story for now.&rdquo;, so I will focus on parallelizing write requests first. He also said that should be some refactoring to have the looping/thread creation only once in the code.</p>
+<p>This seems a bit more challenging than my last task (specially to test), which is great! I&rsquo;m learning a lot about many things, and it&rsquo;s been very fun :-).</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Jun 28, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-06-28-gsoc-report-week-5/"
+    >GSoC report - week 5</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC report - week 4</h2>
+  <section><p>I had some problems this week (many exams and things to do on university), so this was a slow week on GSoC.</p>
+<p>I worked on creating tests for my last week&rsquo;s patches. Unfortunately I took the wrong direction, writing some code to monkeypatch the gocept.zeoraid.storage.RAIDStorage.__apply_single_storage() method to provide logging and see if the requests are being distributed; Christian later suggested that it should be better to write a simple storage implementation to avoid using monkeypatching (it doesn&rsquo;t need to be a ClientStorage compatible storage, it just need to implement some needed methods such as gocept.zeoraid.tests.failingstorage.FailingStorage does).</p>
+<p>Next week I will work on finishing this task and hopefully starting my next task - parallelize requests to multiple backends, probably.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Jun 22, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-06-22-gsoc-report-week-4/"
+    >GSoC report - week 4</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC report - week 3</h2>
+  <section><p><!-- raw HTML omitted --><!-- raw HTML omitted -->Martijn<!-- raw HTML omitted --><!-- raw HTML omitted --> suggested that I should write periodic reports about my work on <!-- raw HTML omitted --><!-- raw HTML omitted -->GSoC<!-- raw HTML omitted --><!-- raw HTML omitted -->, so here we go.</p>
+<p>My first task was to test if <!-- raw HTML omitted --><!-- raw HTML omitted -->ZEORaid<!-- raw HTML omitted --><!-- raw HTML omitted --> is processing validations from the backend storages too often. I&rsquo;ve done some tests in different situations, and I haven&rsquo;t found anything wrong yet. I have to put more work on this, but it will wait because there are more important things that need attention until the 1.0 release.</p>
+<p>After that I&rsquo;ve been working on distributing single requests to backends over the available (optimal) backends. Right now ZEORaid (trunk) iterates over a list of optimal storages and gets the first reliable result; I wrote a simple <!-- raw HTML omitted --><!-- raw HTML omitted -->patch<!-- raw HTML omitted --><!-- raw HTML omitted --> to distribute the requests randomly.</p>
+<p>My current task is to provide supplemental tests to verify that the new changes actually apply as predicted (e.g. that reading actually does trigger requests to different backends).</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Jun 16, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-06-16-gsoc-report-week-3/"
+    >GSoC report - week 3</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC Application Accepted!</h2>
+  <section><p>As most of you already know, my <!-- raw HTML omitted -->student application<!-- raw HTML omitted --> was accepted for the <!-- raw HTML omitted --><!-- raw HTML omitted -->Google Summer of Code<!-- raw HTML omitted --><!-- raw HTML omitted --> project. I will be working on <!-- raw HTML omitted --><!-- raw HTML omitted -->gocept.zeoraid<!-- raw HTML omitted --><!-- raw HTML omitted -->, package that provides a proxy storage that works like a <!-- raw HTML omitted --><!-- raw HTML omitted -->RAID<!-- raw HTML omitted --><!-- raw HTML omitted --> controller by creating a redundant array of <!-- raw HTML omitted --><!-- raw HTML omitted -->ZEO<!-- raw HTML omitted --><!-- raw HTML omitted --> servers. ZEORaid was created by <!-- raw HTML omitted --><!-- raw HTML omitted -->Christian Theune<!-- raw HTML omitted --><!-- raw HTML omitted --> from <!-- raw HTML omitted --><!-- raw HTML omitted -->gocept<!-- raw HTML omitted --><!-- raw HTML omitted -->, who is my mentor for this project.</p>
+<p>I&rsquo;m using the time left until the coding starts to learn how to use ZEORaid and how it&rsquo;s code works. I&rsquo;m very happy and excited with this project, and I&rsquo;m already learning a lot with it.</p>
+<p>Many thanks to everyone who helped me, and good luck for all fellow GSoC students!</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >May 11, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-05-11-gsoc-application-accepted/"
+    >GSoC Application Accepted!</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">PyConBrasil 3</h2>
+  <section><p>A PyConBrasil III reúne usuários e interessados na linguagem Python para alguns dias de palestras, treinamentos e confraternização. Este é um evento itinerante - já esteve em Campinas, Brasília e esse ano foi em Joinville / SC (poucas horas aqui de casa), nos dias 30 e 31 de agosto e 1o de setembro.</p>
+<p>Um dia antes do começo do evento, dia 29/30, tivemos uma assembléia da Associação Python Brasil destinada a eleição da nova diretoria e de partes do conselho fiscal e do conselho deliberativo. Infelizmente, por causa do mau tempo e consequente fechamento dos aeroportos de Joinville e Curitiba, relativamente poucas pessoas estiveram presentes. Aliás, fui eleito por unanimida&hellip; OK, OK, por W.O., não tinha concorrência, para membro do conselho fiscal. Me disponibilizei como voluntário e espero poder ajudar no que for possível.</p>
+<p>No primeiro dia do evento tivemos algumas palestras do pessoal da &ldquo;firma&rdquo;, inclusive uma palestra minha sobre Grok. Foi a primeira palestra que apresentei na vida, portanto está cheia das gafes comuns aos iniciantes, como vários &ldquo;aaannnn&hellip;&rdquo;, &ldquo;bom, &quot; e corpo &ldquo;travado&rdquo;. Apesar dos pesares, fui bastante elogiado pelo conteúdo da palestra.</p>
+<p>Detalhe importante: várias pessoas vieram falar comigo dizendo coisas como &ldquo;CARACA, QUE CAMISETA HORRÍVEL!&rdquo; ou &ldquo;Ai meu filho, por quê você não usou uma daquelas camisetas pretas bonitas do evento?&rdquo; (minha mãe, obviamente). Duas coisas:</p>
+<!-- raw HTML omitted -->
+<p>Menção honrosa a minha total inabilidade como inglês falado: meu inglês para leitura e escrita (e até para &ldquo;audio&rdquo;) é muito bom, não tenho problemas. Entretanto, no meio do treinamento o Nate Aune (da Jazkarta / Plone4Artists) me pediu algumas informações e, vergonhosamente, o máximo que consegui foi soltar uns monossilábicos e depois digitar algumas coisas para ele no notebook. Acho que fiquei meio &ldquo;travado&rdquo; por vergonha de errar algo na frente de alguém que fala inglês nativamente mas, bem, isso só tornou as coisas piores. Preciso voltar a praticar essa bagaça.</p>
+<p>Como disse antes, o pessoal da Weimar Consultoria (empresa em que trabalho) apresentou várias palestras e treinamentos na PyConBrasil. Algumas palestras foram do JS (acrônimo recursivo para João Sebastião de Oliveira Bueno Calligaris), as quais ele apresentou com o meu iBook. Lógico, não sem que Murphy se apresentasse. Na primeira palestra dele o iBook TRAVOU, me forçando a ir até o palco tentar consertar as coisas e só poder dizer &ldquo;JS, f*deu&rdquo; e desligar o notebook. Detalhe: isso não aconteceu em NENHUM dos testes para a palestra, e é a segunda vez na minha vida que vejo esse iBook travar. Murphy comanda. :-/</p>
+<p>Foram várias palestras muito interessantes de vários gurus da comunidade, como Luciano Ramalho, Osvaldo Santana, Dorneles Treméa, Gustavo Niemeyer e muitas de pessoas que eu não conhecia e que foram <em>muito</em> legais. Uma palestra particularmente inspiradora foi a apresentação sobre Empreendedorismo do Dorneles Treméa (vulgo Déo); ele contou o começo da empresa que ele montou com Xiru (Fabiano Weimar, hoje meu chefe), Sidnei da Silva e outros caras, todas as dificuldades que eles tiveram, os pontos acertados e como ele vive hoje. Muito legal mesmo.</p>
+<p>No fim das contas, não hesito em dizer que foi o melhor evento técnico do qual já participei, tanto pelo nível das palestras e palestrantes quanto pelas pessoas que lá estavam. A comunidade Python é melhor :-).</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Sep 14, 2007</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2007-09-14-pyconbrasil-3/"
+    >PyConBrasil 3</a
+  >
+</section><nav class="mt-14 flex"><a class="btn not-prose" href="/posts/page/7/"
+    >←Prev Page</a
+  ><a class="btn not-prose ml-auto" href="/posts/page/9/"
+    >Next Page→</a
+  ></nav></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+</footer>
+</body>
+</html>

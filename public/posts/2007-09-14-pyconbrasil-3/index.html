@@ -1,0 +1,203 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>PyConBrasil 3-@dirceu</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="A PyConBrasil III reúne usuários e interessados na linguagem Python para alguns dias de palestras, treinamentos e confraternização. Este é um evento itinerante - já esteve em Campinas, Brasília e esse ano foi em Joinville / SC (poucas horas aqui de casa), nos dias 30 e 31 de agosto e 1o de setembro.
+Um dia antes do começo do evento, dia 29/30, tivemos uma assembléia da Associação Python Brasil destinada a eleição da nova diretoria e de partes do conselho fiscal e do conselho deliberativo. Infelizmente, por causa do mau tempo e consequente fechamento dos aeroportos de Joinville e Curitiba, relativamente poucas pessoas estiveram presentes. Aliás, fui eleito por unanimida&hellip; OK, OK, por W.O., não tinha concorrência, para membro do conselho fiscal. Me disponibilizei como voluntário e espero poder ajudar no que for possível." />
+  <meta name="author" content="Dirceu Pereira Tiegs" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/ea03ba48f7041d9bf675a067806d9d76?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" /><link rel="preload" as="image" href="http://localhost:1313/github.svg" /><link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" /><link rel="preload" as="image" href="http://localhost:1313/rss.svg" />
+
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="http://localhost:1313/"
+      >@dirceu</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >Who?</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/now/"
+        >Now</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/dirceu"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/dirceu"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/dirceu"
+        target="_blank"
+        rel="me"
+      >linkedin</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="http://localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >rss</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">PyConBrasil 3</h1><div class="text-xs antialiased opacity-60"><time>Sep 14, 2007</time></div></header>
+
+  <section><p>A PyConBrasil III reúne usuários e interessados na linguagem Python para alguns dias de palestras, treinamentos e confraternização. Este é um evento itinerante - já esteve em Campinas, Brasília e esse ano foi em Joinville / SC (poucas horas aqui de casa), nos dias 30 e 31 de agosto e 1o de setembro.</p>
+<p>Um dia antes do começo do evento, dia 29/30, tivemos uma assembléia da Associação Python Brasil destinada a eleição da nova diretoria e de partes do conselho fiscal e do conselho deliberativo. Infelizmente, por causa do mau tempo e consequente fechamento dos aeroportos de Joinville e Curitiba, relativamente poucas pessoas estiveram presentes. Aliás, fui eleito por unanimida&hellip; OK, OK, por W.O., não tinha concorrência, para membro do conselho fiscal. Me disponibilizei como voluntário e espero poder ajudar no que for possível.</p>
+<p>No primeiro dia do evento tivemos algumas palestras do pessoal da &ldquo;firma&rdquo;, inclusive uma palestra minha sobre Grok. Foi a primeira palestra que apresentei na vida, portanto está cheia das gafes comuns aos iniciantes, como vários &ldquo;aaannnn&hellip;&rdquo;, &ldquo;bom, &quot; e corpo &ldquo;travado&rdquo;. Apesar dos pesares, fui bastante elogiado pelo conteúdo da palestra.</p>
+<p>Detalhe importante: várias pessoas vieram falar comigo dizendo coisas como &ldquo;CARACA, QUE CAMISETA HORRÍVEL!&rdquo; ou &ldquo;Ai meu filho, por quê você não usou uma daquelas camisetas pretas bonitas do evento?&rdquo; (minha mãe, obviamente). Duas coisas:</p>
+<!-- raw HTML omitted -->
+<p>Menção honrosa a minha total inabilidade como inglês falado: meu inglês para leitura e escrita (e até para &ldquo;audio&rdquo;) é muito bom, não tenho problemas. Entretanto, no meio do treinamento o Nate Aune (da Jazkarta / Plone4Artists) me pediu algumas informações e, vergonhosamente, o máximo que consegui foi soltar uns monossilábicos e depois digitar algumas coisas para ele no notebook. Acho que fiquei meio &ldquo;travado&rdquo; por vergonha de errar algo na frente de alguém que fala inglês nativamente mas, bem, isso só tornou as coisas piores. Preciso voltar a praticar essa bagaça.</p>
+<p>Como disse antes, o pessoal da Weimar Consultoria (empresa em que trabalho) apresentou várias palestras e treinamentos na PyConBrasil. Algumas palestras foram do JS (acrônimo recursivo para João Sebastião de Oliveira Bueno Calligaris), as quais ele apresentou com o meu iBook. Lógico, não sem que Murphy se apresentasse. Na primeira palestra dele o iBook TRAVOU, me forçando a ir até o palco tentar consertar as coisas e só poder dizer &ldquo;JS, f*deu&rdquo; e desligar o notebook. Detalhe: isso não aconteceu em NENHUM dos testes para a palestra, e é a segunda vez na minha vida que vejo esse iBook travar. Murphy comanda. :-/</p>
+<p>Foram várias palestras muito interessantes de vários gurus da comunidade, como Luciano Ramalho, Osvaldo Santana, Dorneles Treméa, Gustavo Niemeyer e muitas de pessoas que eu não conhecia e que foram <em>muito</em> legais. Uma palestra particularmente inspiradora foi a apresentação sobre Empreendedorismo do Dorneles Treméa (vulgo Déo); ele contou o começo da empresa que ele montou com Xiru (Fabiano Weimar, hoje meu chefe), Sidnei da Silva e outros caras, todas as dificuldades que eles tiveram, os pontos acertados e como ele vive hoje. Muito legal mesmo.</p>
+<p>No fim das contas, não hesito em dizer que foi o melhor evento técnico do qual já participei, tanto pelo nível das palestras e palestrantes quanto pelas pessoas que lá estavam. A comunidade Python é melhor :-).</p>
+</section>
+
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/posts/2008-05-11-gsoc-application-accepted/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>GSoC Application Accepted!</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="http://localhost:1313/posts/2007-08-31-pyconbrasil-3-introducao-ao-grok/"
+      ><span>PyConBrasil 3 - Introdu&amp;ccedil;&amp;atilde;o ao Grok</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+</footer>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!doctype html>
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg:#faf8f1"
+  lang="en-us"
+  dir="ltr"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>Dealing with distractions-@dirceu</title>
+
+  
+  <meta name="theme-color" />
+
+  <meta name="description" content="Most developers have trouble with distractions. The 5 minutes you take to check Twitter / Hacker News / Google Reader can quickly become 1 hour, and sometimes you need to force yourself to actually do something. This post lists some techniques I&rsquo;ve been using to get more focused time.
+Blocking websites
+I&rsquo;ve been using Alex Payne&rsquo;s &ldquo;Get-Back-To-Work Hack&rdquo; with success for almost two weeks. It&rsquo;s very simple and while I can easily edit /etc/hosts and un-block everything, I don&rsquo;t do it. In fact, I&rsquo;m spending much less time on twitter, email and feeds." />
+  <meta name="author" content="Dirceu Pereira Tiegs" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/ea03ba48f7041d9bf675a067806d9d76?s=160&amp;d=identicon" />
+
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" /><link rel="preload" as="image" href="http://localhost:1313/github.svg" /><link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" /><link rel="preload" as="image" href="http://localhost:1313/rss.svg" />
+
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  <meta name="generator" content="Hugo 0.145.0">
+</head>
+<body
+    class="bg-(--bg) text-black antialiased duration-200 ease-out [-webkit-tap-highlight-color:transparent] dark:text-white"
+  ><header
+  class="mx-auto flex h-[4.5rem] max-w-(--w) px-8 whitespace-nowrap lg:justify-center"
+>
+  <div class="relative z-50 flex items-center ltr:mr-auto rtl:ml-auto">
+    <a
+      class="-translate-y-[1px] text-2xl font-medium"
+      href="http://localhost:1313/"
+      >@dirceu</a
+    >
+    <div
+      class="btn-dark text-[0px] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden ltr:-mr-8 rtl:-ml-8"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full flex-col justify-center bg-(--bg) pb-16 duration-200 select-none lg:static lg:h-auto lg:flex-row lg:bg-transparent! lg:pb-0 lg:transition-none"
+  ><nav
+      class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse"
+    ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >Who?</a
+      ><a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/now/"
+        >Now</a
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/dirceu"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/dirceu"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/dirceu"
+        target="_blank"
+        rel="me"
+      >linkedin</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="http://localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >rss</a>
+    </nav>
+  </div>
+</header>
+<main
+      class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
+    ><article>
+  <header class="mb-14">
+    <h1 class="my-0! pb-2.5">Dealing with distractions</h1><div class="text-xs antialiased opacity-60"><time>Oct 9, 2009</time></div></header>
+
+  <section><p>Most developers have trouble with distractions. The 5 minutes you take to check Twitter / Hacker News / Google Reader can quickly become 1 hour, and sometimes you need to <em>force</em> yourself to actually do something. This post lists some techniques I&rsquo;ve been using to get more focused time.</p>
+<h4 id="blocking-websites">Blocking websites</h4>
+<p>I&rsquo;ve been using <a href="http://al3x.net/2009/09/14/my-get-back-to-work-hack.html" title="Alex Payne's Get-Back-To-Work Hack">Alex Payne&rsquo;s &ldquo;Get-Back-To-Work Hack&rdquo;</a> with success for almost two weeks. It&rsquo;s very simple and while I can easily edit /etc/hosts and un-block everything, I don&rsquo;t do it. In fact, I&rsquo;m spending much less time on twitter, email and feeds.</p>
+<h4 id="dont-guess-measure">Don&rsquo;t guess, measure</h4>
+<p>I use the <a href="http://www.rescuetime.com/" title="Rescue Time">Rescue Time</a> daemon to track how I&rsquo;m using my time. It have some pretty cool reports on the web interface and that is helping me a lot to see what distract me most.</p>
+<h4 id="stop-notifications">Stop notifications</h4>
+<p>I&rsquo;ve disabled Growl, changed the clock to analog and now I just keep <a href="https://www.getdropbox.com/referrals/NTI2NDIyMDk" title="Dropbox - Secure backup, sync and sharing made easy">Dropbox</a>, wi-fi status, volume and the clock on the top bar. The digital clock distracts me more than the analog one (since I cannot see the exact time without clicking on it).</p>
+<h4 id="automate-what-you-can">Automate what you can</h4>
+<p>I use <a href="https://www.getdropbox.com/referrals/NTI2NDIyMDk" title="Dropbox - Secure backup, sync and sharing made easy">Dropbox</a> to automatically backup my dotfiles (/etc/apache2, .zsh*, .bash*, .ssh/config, etc), ebooks, pictures and other important files automatically - it&rsquo;s really cool that you can use symlinks instead of copying / pasting.</p>
+<p>I also schedule tasks using <a href="http://culturedcode.com/things/" title="Things - task management on the Mac">Things</a> so I always remember to do repeating tasks and stuff in my calendar.</p>
+<h4 id="dont-use-im">Don&rsquo;t use IM</h4>
+<p>Most of the time I don&rsquo;t use any IM software. I have google talk and skype accounts, but I only use it to talk to my co-workers (when I <strong>really</strong> need it). I think that a good (and short) meeting at the beginning or at the end of the day is way better then staying online all day on google talk, for example.</p>
+<p>This &ldquo;rule&rdquo; have at least two good exceptions: Skype (for pair-programming) and IRC. IRC it&rsquo;s nice because you don&rsquo;t get windows jumping on your face and you can give attention to it when <strong>you</strong> want; also reading the logs is easier than on Skype.</p>
+<p>I&rsquo;m working on a project with a friend and usually we don&rsquo;t work at the same time, so IM don&rsquo;t work well. We&rsquo;re using the <a href="http://coopapp.com/" title="Join the Co-op">Co-op app</a>, a twitter-like application with cool additions like a solo / group agenda to communicate about the project.</p>
+<h4 id="take-breaks">Take breaks</h4>
+<p>When you simply can&rsquo;t work on something, try taking a break <strong>away from keyboard</strong>. Sometimes I feel my concentration going away because I&rsquo;m too tired, so I take a break, drink some water (or tea, caffeine FTW) and just rest for some minutes. Sometimes a &ldquo;power nap&rdquo; is a good idea too, if you don&rsquo;t overdo it.</p>
+<h4 id="additional-links">Additional links</h4>
+<ul>
+<li><a href="http://news.ycombinator.com/item?id=869034" title="Ask HN: How do you concentrate?">Ask HN: How do you concentrate?</a></li>
+<li><a href="http://webr3.org/blog/general/forced-coding/" title="Forced Coding">Forced Coding</a></li>
+<li><a href="http://lifedev.net/2006/09/computer-fast/" title="The 5 Day PM Computer Fast: Why I Got More Done In Less Time">The 5 Day PM Computer Fast: Why I Got More Done In Less Time</a></li>
+<li><a href="http://www.scotthyoung.com/blog/2007/10/18/the-art-of-the-finish-how-to-go-from-busy-to-accomplished/" title="The Art of the Finish: How to Go From Busy to Accomplished">The Art of the Finish: How to Go From Busy to Accomplished</a></li>
+<li><a href="http://calnewport.com/blog/?p=115" title="The Einstein Principle: Accomplish More By Doing Less">The Einstein Principle: Accomplish More By Doing Less</a></li>
+</ul>
+</section>
+
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg leading-[1.2]! *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  ><a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/posts/2009-10-10-mini-review-erlang-programming/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>Mini-Review - Erlang Programming</span></a
+    ><a
+      class="justify-end pl-3 ltr:ml-auto rtl:mr-auto"
+      href="http://localhost:1313/posts/2009-08-10-installing-erlang-yaws-and-erlyweb-on-mac-os-x/"
+      ><span>Installing Erlang, Yaws and Erlyweb on Mac OS X</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    ></nav></article></main><footer
+  class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
+>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+</footer>
+</body>
+</html>

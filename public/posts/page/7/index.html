@@ -30,14 +30,14 @@
     name="description"
     content="A personal blog"
   />
-  <meta name="author" content="@dirceu" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+  <meta name="author" content="Dirceu Pereira Tiegs" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
   <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
 
-  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/ea03ba48f7041d9bf675a067806d9d76?s=160&amp;d=identicon" />
 
-  
+  <link rel="preload" as="image" href="http://localhost:1313/twitter.svg" /><link rel="preload" as="image" href="http://localhost:1313/github.svg" /><link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" /><link rel="preload" as="image" href="http://localhost:1313/rss.svg" />
 
   
 
@@ -132,22 +132,242 @@
         class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
         href="/now/"
         >Now</a
-      ></nav>
+      ></nav><nav
+      class="mt-12 flex justify-center space-x-10 lg:mt-0 lg:items-center ltr:lg:ml-14 rtl:space-x-reverse rtl:lg:mr-14 dark:invert"
+    >
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./twitter.svg)"
+        href="https://twitter.com/dirceu"
+        target="_blank"
+        rel="me"
+      >twitter</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/dirceu"
+        target="_blank"
+        rel="me"
+      >github</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/dirceu"
+        target="_blank"
+        rel="me"
+      >linkedin</a>
+      <a
+        class="h-7 w-7 text-[0px] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./rss.svg)"
+        href="http://localhost:1313/index.xml"
+        target="_blank"
+        rel="alternate"
+      >rss</a>
+    </nav>
   </div>
 </header>
 <main
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     >
 
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Hello Florianópolis</h2>
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Dealing with distractions</h2>
+  <section><p>Most developers have trouble with distractions. The 5 minutes you take to check Twitter / Hacker News / Google Reader can quickly become 1 hour, and sometimes you need to <em>force</em> yourself to actually do something. This post lists some techniques I&rsquo;ve been using to get more focused time.</p>
+<h4 id="blocking-websites">Blocking websites</h4>
+<p>I&rsquo;ve been using <a href="http://al3x.net/2009/09/14/my-get-back-to-work-hack.html" title="Alex Payne's Get-Back-To-Work Hack">Alex Payne&rsquo;s &ldquo;Get-Back-To-Work Hack&rdquo;</a> with success for almost two weeks. It&rsquo;s very simple and while I can easily edit /etc/hosts and un-block everything, I don&rsquo;t do it. In fact, I&rsquo;m spending much less time on twitter, email and feeds.</p>
+<h4 id="dont-guess-measure">Don&rsquo;t guess, measure</h4>
+<p>I use the <a href="http://www.rescuetime.com/" title="Rescue Time">Rescue Time</a> daemon to track how I&rsquo;m using my time. It have some pretty cool reports on the web interface and that is helping me a lot to see what distract me most.</p>
+<h4 id="stop-notifications">Stop notifications</h4>
+<p>I&rsquo;ve disabled Growl, changed the clock to analog and now I just keep <a href="https://www.getdropbox.com/referrals/NTI2NDIyMDk" title="Dropbox - Secure backup, sync and sharing made easy">Dropbox</a>, wi-fi status, volume and the clock on the top bar. The digital clock distracts me more than the analog one (since I cannot see the exact time without clicking on it).</p>
+<h4 id="automate-what-you-can">Automate what you can</h4>
+<p>I use <a href="https://www.getdropbox.com/referrals/NTI2NDIyMDk" title="Dropbox - Secure backup, sync and sharing made easy">Dropbox</a> to automatically backup my dotfiles (/etc/apache2, .zsh*, .bash*, .ssh/config, etc), ebooks, pictures and other important files automatically - it&rsquo;s really cool that you can use symlinks instead of copying / pasting.</p>
+<p>I also schedule tasks using <a href="http://culturedcode.com/things/" title="Things - task management on the Mac">Things</a> so I always remember to do repeating tasks and stuff in my calendar.</p>
+<h4 id="dont-use-im">Don&rsquo;t use IM</h4>
+<p>Most of the time I don&rsquo;t use any IM software. I have google talk and skype accounts, but I only use it to talk to my co-workers (when I <strong>really</strong> need it). I think that a good (and short) meeting at the beginning or at the end of the day is way better then staying online all day on google talk, for example.</p>
+<p>This &ldquo;rule&rdquo; have at least two good exceptions: Skype (for pair-programming) and IRC. IRC it&rsquo;s nice because you don&rsquo;t get windows jumping on your face and you can give attention to it when <strong>you</strong> want; also reading the logs is easier than on Skype.</p>
+<p>I&rsquo;m working on a project with a friend and usually we don&rsquo;t work at the same time, so IM don&rsquo;t work well. We&rsquo;re using the <a href="http://coopapp.com/" title="Join the Co-op">Co-op app</a>, a twitter-like application with cool additions like a solo / group agenda to communicate about the project.</p>
+<h4 id="take-breaks">Take breaks</h4>
+<p>When you simply can&rsquo;t work on something, try taking a break <strong>away from keyboard</strong>. Sometimes I feel my concentration going away because I&rsquo;m too tired, so I take a break, drink some water (or tea, caffeine FTW) and just rest for some minutes. Sometimes a &ldquo;power nap&rdquo; is a good idea too, if you don&rsquo;t overdo it.</p>
+<h4 id="additional-links">Additional links</h4>
+<ul>
+<li><a href="http://news.ycombinator.com/item?id=869034" title="Ask HN: How do you concentrate?">Ask HN: How do you concentrate?</a></li>
+<li><a href="http://webr3.org/blog/general/forced-coding/" title="Forced Coding">Forced Coding</a></li>
+<li><a href="http://lifedev.net/2006/09/computer-fast/" title="The 5 Day PM Computer Fast: Why I Got More Done In Less Time">The 5 Day PM Computer Fast: Why I Got More Done In Less Time</a></li>
+<li><a href="http://www.scotthyoung.com/blog/2007/10/18/the-art-of-the-finish-how-to-go-from-busy-to-accomplished/" title="The Art of the Finish: How to Go From Busy to Accomplished">The Art of the Finish: How to Go From Busy to Accomplished</a></li>
+<li><a href="http://calnewport.com/blog/?p=115" title="The Einstein Principle: Accomplish More By Doing Less">The Einstein Principle: Accomplish More By Doing Less</a></li>
+</ul>
+</section>
   <time class="text-xs antialiased opacity-60"
-    >Jun 22, 2014</time
+    >Oct 9, 2009</time
   >
-  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2014-06-22-hello-floripa/"
-    >Hello Florianópolis</a
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2009-10-09-dealing-with-distractions/"
+    >Dealing with distractions</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Installing Erlang, Yaws and Erlyweb on Mac OS X</h2>
+  <section><p>This is a short how-to showing how to install <!-- raw HTML omitted -->Erlang<!-- raw HTML omitted -->, <!-- raw HTML omitted -->Yaws<!-- raw HTML omitted --> and <!-- raw HTML omitted -->Erlyweb<!-- raw HTML omitted --> on Mac OS X via <!-- raw HTML omitted -->MacPorts<!-- raw HTML omitted -->.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 10, 2009</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2009-08-10-installing-erlang-yaws-and-erlyweb-on-mac-os-x/"
+    >Installing Erlang, Yaws and Erlyweb on Mac OS X</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">I&#39;m a Mac (again)</h2>
+  <section><p>Almost three years ago <!-- raw HTML omitted -->my boss<!-- raw HTML omitted --> sent me an iBook G4 to work with. It was an absolutely awesome machine: fast, great battery life, beautiful hardware, beautiful OS. I loved it, but after 1,5 years using it some problems arise.</p>
+<p>First, the battery just died - it just worked when connected to the charger. Second, I work(ed) with Zope and Plone on a daily basis, and things like running the entire <!-- raw HTML omitted -->gocept.zeoraid<!-- raw HTML omitted --> test suite took about 40 minutes. Even PloneTestCase with some functional tests was painfully slow. A Macbook was too expensive for me at that time, but I needed a new laptop.</p>
+<h4 id="linux">Linux</h4>
+<p>Before using that iBook I used Linux for almost 4 years, so I brought an <!-- raw HTML omitted -->inexpensive laptop<!-- raw HTML omitted --> to run Linux. The laptop has an Intel Core 2 Duo 1.66GHz, 2 GB of RAM and 120 GB of disk space - a reasonably good machine, except for the video and the wireless card. It took me almost 6 hours to install Ubuntu on that laptop (which came with <!-- raw HTML omitted -->Satux Linux<!-- raw HTML omitted --> installed by default) and much, <!-- raw HTML omitted -->much<!-- raw HTML omitted --> more time to get everything right.</p>
+<p>I was reasonably happy with that setup, but every now and then I needed to fix something in the OS. One day I decided to buy a <!-- raw HTML omitted -->second monitor<!-- raw HTML omitted -->, and so I did it. Big mistake.</p>
+<h4 id="windows">Windows</h4>
+<p>It seems that the SiS Mirage 3 video card is a Windows fanboy and I couldn&rsquo;t get the new monitor to work with Linux. It worked out of the box with an <!-- raw HTML omitted -->Asus eeePC<!-- raw HTML omitted --> running eeeBuntu, but not on my laptop. Damn it. After that and some other minor annoyances I decided to give Windows Vista a try, following some advice from <!-- raw HTML omitted -->Sidnei<!-- raw HTML omitted -->.</p>
+<p>Windows Vista surprised me. It&rsquo;s a good OS, every piece of hardware on my machine worked without &ldquo;serious&rdquo; configuration. As I can&rsquo;t live without a Unix I installed <!-- raw HTML omitted -->andLinux<!-- raw HTML omitted -->, but it was not enough: using Linux to manipulate a NTFS filesystem is a PITA.</p>
+<h4 id="mac-os-x---again">Mac OS X - Again</h4>
+<p>After so much trouble I realized I was losing time with all these annoyances; then I saved money, did some freelance work on my spare time and <!-- raw HTML omitted -->voila<!-- raw HTML omitted -->: last week I brought a white Macbook.</p>
+<p>I can&rsquo;t tell you how much I&rsquo;m happy with it. It took me less than 1 hour to download and install every application that I need - well, almost all of them, since XCode is really big and the download took almost 2 hours itself.</p>
+<p>One good surprise is XCode / iPhone Simulator. XCode is a very good IDE and it&rsquo;s been a lot of fun to learn Objective-C and how to develop iPhone applications.</p>
+<p>If you need to buy some tool (be it hardware or software), buy the best tool your money can buy. Some programmers hesitate to spend some money on a good chair, on a good editor or on a good computer (like me, before all this) but damn, we spend 8-12 hours a day using these things! Every single thing that can save you time or give you more comfort is worth it.</p>
+<p>I have a profile on <!-- raw HTML omitted -->iUseThis<!-- raw HTML omitted --> that shows the apps that I have on my Mac. If you have any recomendations please leave a comment!</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Apr 13, 2009</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2009-04-13-im-a-mac-again/"
+    >I&#39;m a Mac (again)</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Usando Emacs</h2>
+  <section><p><!-- raw HTML omitted -->Desde que comecei a programar eu pulei de editor para editor (sempre usando com mais frequência o VIm), mas nunca parei para me aprofundar <!-- raw HTML omitted -->de verdade<!-- raw HTML omitted --> no uso de nenhum deles. Alguns meses atrás eu decidi me dedicar a resolver esse problema e desde então tenho usado diariamente o Emacs.</p>
+<p>Por que o Emacs? Pelo mesmo motivo que me levou a aprender Zope e Plone: tem muita gente <!-- raw HTML omitted -->realmente boa<!-- raw HTML omitted --> usando o Emacs, o que significa que algo de bom ele tem. Além disso o Emacs é multiplataforma, o que é importante pra mim, já que pretendo voltar a usar Mac OS X em breve.</p>
+<p>Logo que voltei a estudar o Emacs eu assisti o screencast <!-- raw HTML omitted -->Meet Emacs<!-- raw HTML omitted -->, do <!-- raw HTML omitted -->PeepCode.com<!-- raw HTML omitted --> (altamente recomendado, aliás), o que me ajudou muito. O screencast apresenta os principais comandos, major / minor modes, color modes, eshell, ido-mode, textmate.el, vc-mode (para controle de versão), magit (para usar git) e vários outros recursos interessantes.</p>
+<p>A coisa mais útil do screencast, na verdade, foi apresentar o <!-- raw HTML omitted -->Emacs Starter Kit<!-- raw HTML omitted -->. O ESK é um diretório de configuração para o Emacs (.emacs.d) cheio de major e minor modes muitos úteis e vários <!-- raw HTML omitted -->defaults<!-- raw HTML omitted --> melhorados. Vale a pena testar.</p>
+<p>No github existe uma <!-- raw HTML omitted -->grande variedade de forks<!-- raw HTML omitted --> do Emacs Starter Kit; eu mesmo mantenho meu .emacs.d como um fork desse projeto. O <!-- raw HTML omitted -->meu fork<!-- raw HTML omitted --> adiciona algumas coisas interessantes como o yasnippet (com snippets variados para Python, Ruby e outras linguagens) e o whitespace.el (muito útil pra programar em Python).</p>
+<p>O Emacs é muito flexível. Abrir diversos buffers lado a lado, fazer commits, verificar sintaxe, fazer diffs e funções como a jump-to-symbol do ido-mode sem dúvida me proporcionaram uma maior produtividade. O contraponto disso é que é fácil ficar &ldquo;perdendo tempo&rdquo; personalizando o .emacs.d e brincando com elisp :-).</p>
+<p>No geral estou bastante satisfeito com a minha escolha de editor. Pretendo me aprofundar mais e assim melhorar minha produtividade - afinal de contas um dos requisitos para entrar no estado de &ldquo;<!-- raw HTML omitted -->flow<!-- raw HTML omitted -->&rdquo; é usar bem e intuitivamente as ferramentas que mais usamos.</p>
+<p>No meu <!-- raw HTML omitted -->delicious<!-- raw HTML omitted --> tem alguns links interessantes sobre Emacs: <!-- raw HTML omitted --><a href="http://delicious.com/dirceu/emacs">http://delicious.com/dirceu/emacs</a><!-- raw HTML omitted -->.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Mar 9, 2009</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2009-03-09-usando-emacs/"
+    >Usando Emacs</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Why you should switch to Git</h2>
+  <section><p>Over the last few months I&rsquo;ve switched from Subversion and Bazaar to Git. I&rsquo;m using Git on a daily basis now and I&rsquo;m much happier with it than I was when using Subversion. In this post I&rsquo;ll try to explain why and provide some useful links.</p>
+<!-- raw HTML omitted -->
+<p>When using Git you don&rsquo;t work on a &ldquo;working copy&rdquo; of the last revision (as you do with Subversion) - using &ldquo;git clone URL&rdquo; you clone the <em>entire repository</em>: all commits, merges, branches, everything.</p>
+<!-- raw HTML omitted -->
+<p>With Git I can clone a remote repository, create branches, try things out and never ever send anything back to the origin repository. I can do pretty much everything without getting permission, without bureaucracy.</p>
+<!-- raw HTML omitted -->
+<p>Also it allows you to make &ldquo;pull requests&rdquo; (a way to poke someone and let them know youíve got some code they may want) and  get your code on the main repository.</p>
+<!-- raw HTML omitted -->
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Nov 26, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-11-26-why-you-should-switch-to-git/"
+    >Why you should switch to Git</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Creating RSS feeds with rssifier</h2>
+  <section><p>Two of my favorite webcomics doesn&rsquo;t have official feeds - <!-- raw HTML omitted -->Malvados<!-- raw HTML omitted --> and <!-- raw HTML omitted -->The Order of The Stick<!-- raw HTML omitted --> (this one actually <em>have</em> a feed, but the images aren&rsquo;t shown in the feed items). I didn&rsquo;t like to visit these sites manually, so I quickly wrote a script (which is now a very simple Ruby lib) to create these feeds for me: <!-- raw HTML omitted -->rssifier<!-- raw HTML omitted -->.</p>
+<p>The lib code is ugly at some points, but it&rsquo;s working for me. Here is an example script (malvados.rb) that uses rssifier to create a feed:</p>
+<!-- raw HTML omitted -->
+<p>(<!-- raw HTML omitted -->Link of the Gist<!-- raw HTML omitted -->).</p>
+<p>And <!-- raw HTML omitted -->this<!-- raw HTML omitted --> is the result; I have a cronjob calling the malvados.rb periodically, so this XML gets updated from time to time.</p>
+<p>Any contributions via�<!-- raw HTML omitted -->github<!-- raw HTML omitted --> are obviously welcome :-).</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Oct 16, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-10-16-creating-rss-feeds-with-rssifier/"
+    >Creating RSS feeds with rssifier</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Quick Tip - Testing Django send_mail</h2>
+  <section><p>I&rsquo;ve been working on a Django project lately and I had the need to send some emails from my application. I was trying to figure out how to write a mocked version of django.core.mail.send_mail when I read about <!-- raw HTML omitted -->django.core.mail.outbox<!-- raw HTML omitted -->, which apparently is a new feature of Django 1.0.</p>
+<p>django.core.mail.outbox is a list of all instances of emails sent with django.core.mail.send_mail that is available only in the testing framework. With it you can do things like these:</p>
+<!-- raw HTML omitted -->
+<p>(<!-- raw HTML omitted -->Link of the Gist<!-- raw HTML omitted -->)</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Oct 7, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-10-07-quick-tip-testing-django-send_mail/"
+    >Quick Tip - Testing Django send_mail</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Browsers gone wild!</h2>
+  <section><p>Dois lançamentos recentes estão deixando o povo que &lsquo;mexe com web&rsquo; agitado: o <!-- raw HTML omitted -->Mozilla Ubiquity<!-- raw HTML omitted --> e o <!-- raw HTML omitted -->Google Chrome<!-- raw HTML omitted -->.</p>
+<!-- raw HTML omitted -->
+<p>Uma das coisas que eu mais achei interessante é a facilidade de manipular conteúdo; vocÍ pode, por exemplo, selecionar um texto qualquer em uma página, abrir o ubiquity e digitar &rsquo;email this to fulano&rsquo; - isso irá abrir uma tela do gmail já com um email parcialmente preenchido para o &lsquo;fulano&rsquo; (que deve estar nos seus contatos).</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>O Chrome foi desenhado pensando nessa &rsquo;nova web&rsquo;: entre outras coisas, cada aba é um processo. Isso faz com que esse navegador seja mais seguro (uma aba não consegue acessar os dados das outras), mais rápido (uma aba lenta não afeta as outras) e trave menos (se uma aba travar, é só ela que vai travar). A interface é minimalista: a idéia é que o navegador seja &lsquo;invisível&rsquo;, que o usuário só preste atenção no conteúdo que está acessando.</p>
+<p>&ldquo;<!-- raw HTML omitted -->Mas como assim p*rra? O Google e a Mozilla não tinham um &lsquo;caso&rsquo;?<!-- raw HTML omitted -->&rdquo;</p>
+<p>Pois é. Como <!-- raw HTML omitted -->bem disse<!-- raw HTML omitted --> o Sidnei, o Chrome tem tudo pra &lsquo;roubar&rsquo; usuários do Firefox. De qualquer forma, <!-- raw HTML omitted -->a bagaça é open source<!-- raw HTML omitted --> - se a Mozilla quiser pode &lsquo;deitar e rolar&rsquo; com o código do Chrome - inclusive pode aproveitar e começar a usar a <!-- raw HTML omitted -->engine javascript<!-- raw HTML omitted --> do novo browser, que é bem mais rápida que a do Firefox.</p>
+<!-- raw HTML omitted -->
+<p>E vejam que beleza: migrei do OS X de volta pra Linux há menos de uma semana. O jeito é usar o <!-- raw HTML omitted -->VirtualBox<!-- raw HTML omitted -->.</p>
+<p><em>sigh</em></p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Sep 3, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-09-03-browsers-gone-wild/"
+    >Browsers gone wild!</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">Usando o git-svn</h2>
+  <section><p>Nos últimos dias venho trabalhando em uma app Django e, como sou iniciante no uso desse framework, todos os dias aprendo algum feature novo para melhorar meu código (como generic views, por exemplo). Para testar esses features o ideal é criar um branch, usar os features no código e, se valer a pena, fazer o merge. O problema: usamos svn <!-- raw HTML omitted -->na empresa<!-- raw HTML omitted -->, e fazer branches no svn é bem chatinho (principalmente se comparado ao git). Para resolver isso estou usando o <!-- raw HTML omitted -->git-svn<!-- raw HTML omitted -->.</p>
+<p>Segue abaixo meu fluxo de trabalho no git-svn:</p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->Link do Gist<!-- raw HTML omitted -->, para quem não consegue ver no feed.</p>
+<p>Enfim, esse é um post pra que eu mesmo não esqueça como fazer isso. Alguns links e tutoriais interessantes sobre o git e o git-svn estão no meu <!-- raw HTML omitted -->del.icio.us<!-- raw HTML omitted -->: <!-- raw HTML omitted --><a href="http://delicious.com/dirceu/git">http://delicious.com/dirceu/git</a><!-- raw HTML omitted -->.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 30, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-08-30-usando-o-git-svn/"
+    >Usando o git-svn</a
+  >
+</section>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0"><h2 class="my-0!">GSoC Summary</h2>
+  <section><p>As the Google Summer of Code coding period comes to an end, I must write about what I have done, so here we go. My proposed tasks were:</p>
+<!-- raw HTML omitted -->
+<p>The first two weeks were used on this task and on getting myself familiar with gocept.zeoraid codebase. As I said in <!-- raw HTML omitted -->my first report<!-- raw HTML omitted -->, I didn&rsquo;t found anything wrong with the invalidation proccess when doing my tests, so I moved to another task.</p>
+<p><!-- raw HTML omitted -->Task 5<!-- raw HTML omitted --></p>
+<p>This was a reasonably easy one. My main problem was getting an automated test to prove the implementation. It&rsquo;s hard to test a distributed system, and doing the setup is a little problematic; anyway, with help from my mentor, <!-- raw HTML omitted -->Christian Theune<!-- raw HTML omitted -->, I got a working test. My work is on <!-- raw HTML omitted -->this branch<!-- raw HTML omitted -->.</p>
+<p><!-- raw HTML omitted -->Task 4<!-- raw HTML omitted --></p>
+<p>This one was tricky. I had no &ldquo;real world&rdquo; experience on writing threads, so I stepped into many obvious bugs - joining threads, dealing with exception handling and such things. I&rsquo;ve spent almost four weeks working on this task, but in the end I got it right. My work is on <!-- raw HTML omitted -->this branch<!-- raw HTML omitted -->.</p>
+<p><!-- raw HTML omitted -->Task 3<!-- raw HTML omitted --></p>
+<p>I started researching a bit about this task, but Christian said that task 2 was much more important, so I stopped working on it.</p>
+<p><!-- raw HTML omitted -->Task 2<!-- raw HTML omitted --></p>
+<p>My final task over the GSoC period. I started by writing a &ldquo;add&rdquo; command to the ZEORaid command-line tool, as I described in <!-- raw HTML omitted -->this report<!-- raw HTML omitted -->. It was easy to get this working for ClientStorage objects, but I needed to get it working with other types of storages too; some time later Christian said that it was only a &ldquo;helper&rdquo; for me to understand better the way that ZEORaid handles storages and openers.</p>
+<p>I dropped this implementation and started working on reloading the entire config file. I got it working in a couple of days, but spent <em>much</em> more time than that working on an automated test for it. My work is on <!-- raw HTML omitted -->this branch<!-- raw HTML omitted -->.</p>
+</section>
+  <time class="text-xs antialiased opacity-60"
+    >Aug 18, 2008</time
+  >
+  <a class="absolute inset-0 text-[0px]" href="http://localhost:1313/posts/2008-08-18-gsoc-summary/"
+    >GSoC Summary</a
   >
 </section><nav class="mt-14 flex"><a class="btn not-prose" href="/posts/page/6/"
     >←Prev Page</a
+  ><a class="btn not-prose ml-auto" href="/posts/page/8/"
+    >Next Page→</a
   ></nav></main><footer
   class="mx-auto flex h-[4.5rem] max-w-(--w) items-center px-8 text-xs tracking-wider uppercase opacity-60"
 >
